@@ -1,0 +1,2248 @@
+declare VCB-Metering-Panel volt 11000        
+goto VCB-Metering-Panel          
+insert CB VCB-HT-Panel-Incoming-(Main-CB) cable 1 3 185 1c/XLPE 50    
+goto VCB-HT-Panel-Incoming-(Main-CB)          
+insert CB VCB-HT2 cable 1 1 1 3.5c 0    
+insert CB VCB-HT3 cable 1 1 1 3.5c 0    
+goto VCB-HT2          
+insert TR Transformer-1 cable 1 3 185 1c/XLPE 40 turnRatio 11000 415 
+insert TR Transformer-3 cable 1 3 185 1c/XLPE 140 turnRatio 11000 415 
+goto VCB-HT3          
+insert TR Transformer-2 cable 1 3 185 1c/XLPE 65 turnRatio 11000 415 
+goto Transformer-2          
+insert CB LT-27-Q1 cable 1 4 1200 4c/BUS 10    
+goto Transformer-1          
+insert CB LT-12-Q1 cable 1 4 1200 4c/BUS 15    
+goto LT-12-Q1          
+insert BUS Changeover-Wapda cable 1 1 1 3.5c 0    
+insert BUS LT-Room-Bus-Bar-1 cable 1 1 1 3.5c 0    
+goto LT-Room-Bus-Bar-1          
+insert CB LT-4-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-4-Q2 cable 1 1 1 3.5c 0    
+insert CB LT-4-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-4-Q4 cable 1 1 1 3.5c 0    
+insert CB LT-5-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-5-Q2 cable 1 1 1 3.5c 0    
+insert CB LT-5-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-5-Q4 cable 1 1 1 3.5c 0    
+insert CB LT-6-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-6-Q2 cable 1 1 1 3.5c 0    
+insert CB LT-6-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-7-Q4 cable 1 1 1 3.5c 0    
+insert PFI LT-8-PFI cable 1 1 1 3.5c 0 supply 600  
+insert CB LT-9-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-9-Q2 cable 1 1 1 3.5c 0    
+insert CB LT-9-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-10-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-10-Q4 cable 1 1 1 3.5c 0    
+insert CB LT-14(Coupler) cable 1 1 1 3.5c 0    
+goto LT-27-Q1          
+insert BUS LT-Room-Bus-Bar-3 cable 1 1 1 3.5c 0    
+goto LT-Room-Bus-Bar-3          
+insert CB LT-25(Coupler) cable 1 1 1 3.5c 0    
+insert CB LT-26-Q4 cable 1 1 1 3.5c 0    
+insert CB LT-29-Q4 cable 1 1 1 3.5c 0    
+insert CB LT-29-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-29-Q2 cable 1 1 1 3.5c 0    
+insert CB LT-30-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-30-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-30-Q4 cable 1 1 1 3.5c 0    
+insert CB LT-31-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-31-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-31-Q4 cable 1 1 1 3.5c 0    
+insert CB LT-32-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-32-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-33-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-33-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-33-Q4 cable 1 1 1 3.5c 0    
+insert PFI LT-35-PFI cable 1 1 1 3.5c 0 supply 600  
+goto LT-14(Coupler)          
+insert BUS LT-Room-Bus-Bar-2 cable 1 1 1 3.5c 0    
+goto LT-Room-Bus-Bar-2          
+insert CB LT-17-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-18-Q2 cable 1 1 1 3.5c 0    
+insert CB LT-18-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-18-Q4 cable 1 1 1 3.5c 0    
+insert CB LT-19-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-19-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-19-Q4 cable 1 1 1 3.5c 0    
+insert CB LT-20-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-20-Q2 cable 1 1 1 3.5c 0    
+insert CB LT-20-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-20-Q4 cable 1 1 1 3.5c 0    
+insert CB LT-21-Q2 cable 1 1 1 3.5c 0    
+insert CB LT-21-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-21-Q4 cable 1 1 1 3.5c 0    
+goto Changeover-Wapda          
+insert CB LT-37-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-37-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-37-Q5 cable 1 1 1 3.5c 0    
+insert CB LT-38-Q1 cable 1 1 1 3.5c 0    
+insert CB LT-38-Q3 cable 1 1 1 3.5c 0    
+insert CB LT-38-Q5 cable 1 1 1 3.5c 0    
+goto LT-18-Q3          
+insert CB Gen-Aux-Main-CB cable 1 1 95 3.5c 40    
+goto Gen-Aux-Main-CB          
+insert CB Gen-Aux-CB1 cable 1 1 1 3.5c 0    
+insert CB Gen-Aux-CB2 cable 1 1 1 3.5c 0    
+insert CB Gen-Aux-CB3 cable 1 1 1 3.5c 0    
+insert CB Gen-Aux-CB4 cable 1 1 1 3.5c 0    
+insert CB Gen-Aux-CB5 cable 1 1 1 3.5c 0    
+insert CB Gen-Aux-CB6 cable 1 1 1 3.5c 0    
+insert CB Gen-Aux-CB7 cable 1 1 1 3.5c 0    
+insert CB Gen-Aux-CB8 cable 1 1 1 3.5c 0    
+insert CB Gen-Aux-CB9 cable 1 1 1 3.5c 0    
+goto Gen-Aux-CB1          
+insert LOAD Jacket-Water-Heater-Pump cable 1 1 2.5 3.5c 25 load 2.2  
+goto Gen-Aux-CB2          
+insert LOAD Pre-Lube-Pump cable 1 1 2.5 3.5c 30 load 2.2  
+goto Gen-Aux-CB3          
+insert LOAD Pump-Water-Circulation cable 1 1 6 3.5c 30 load 11  
+goto Gen-Aux-CB4          
+insert LOAD Cooling-Tower-1 cable 1 1 25 3.5c 30 load 4  
+goto Gen-Aux-CB5          
+insert LOAD Cooling-Tower-2 cable 1 1 25 3.5c 30 load 4  
+goto Gen-Aux-CB6          
+insert LOAD Air-Exhaust-Fan-1 cable 1 1 2.5 3.5c 25 load 4  
+goto Gen-Aux-CB7          
+insert LOAD Air-Exhaust-Fan-2 cable 1 1 2.5 3.5c 25 load 4  
+goto Gen-Aux-CB8          
+insert LOAD CT-Pump-1 cable 1 1 25 3.5c 40 load 22  
+goto Gen-Aux-CB9          
+insert LOAD CT-Pump-2 cable 1 1 25 3.5c 40 load 22  
+goto LT-5-Q2          
+insert LOAD Compressor-1 cable 1 1 95 3.5c 20 load 76  
+goto LT-5-Q1          
+insert LOAD Compressor-2 cable 1 1 120 3.5c 30 load 76  
+goto LT-18-Q2          
+insert LOAD Compressor-3 cable 1 1 120 3.5c 30 load 90  
+goto LT-30-Q3          
+insert LOAD Compressor-4 cable 1 1 120 3.5c 25 load 90  
+goto LT-30-Q3          
+insert LOAD Compressor-5 cable 1 1 120 3.5c 30 load 90  
+goto LT-6-Q2          
+insert CB MCC-1-DB-CB cable 1 1 120 4c 15    
+goto LT-9-Q3          
+insert CB DB-2-CB cable 1 1 50 4c 30    
+goto LT-6-Q1          
+insert CB AHU+CT-Main-CB cable 1 8 120 4c 35    
+goto MCC-1-DB-CB          
+insert CB MCC-1-DB-CB1 cable 1 1 1 3.5c 0    
+insert CB MCC-1-DB-CB2 cable 1 1 1 3.5c 0    
+insert CB MCC-1-DB-CB3 cable 1 1 1 3.5c 0    
+insert CB MCC-1-DB-CB4 cable 1 1 1 3.5c 0    
+insert CB MCC-1-DB-CB5 cable 1 1 1 3.5c 0    
+insert CB MCC-1-DB-CB6 cable 1 1 1 3.5c 0    
+goto MCC-1-DB-CB1          
+insert LOAD MCC-1-Pump-1 cable 1 1 2.5 3.5c 15 load 7.5  
+goto MCC-1-DB-CB2          
+insert LOAD MCC-1-Pump-2 cable 1 1 2.5 3.5c 15 load 7.5  
+goto MCC-1-DB-CB3          
+insert LOAD MCC-1-CT cable 1 1 2.5 3.5c 30 load 5.5  
+goto MCC-1-DB-CB4          
+insert LOAD MCC-1-Comp-Hall-AHU-1 cable 1 1 16 3.5c 35 load 15  
+goto MCC-1-DB-CB5          
+insert LOAD MCC-1-Comp-Hall-AHU-2 cable 1 1 6 3.5c 32 load 15  
+goto MCC-1-DB-CB6          
+insert LOAD MCC-1-Process-Back-Exh cable 1 1 6 3.5c 22 load 1.5  
+goto DB-2-CB          
+insert CB DB-2-CB1 cable 1 1 1 3.5c 0    
+insert CB DB-2-CB2 cable 1 1 1 3.5c 0    
+insert CB DB-2-CB3 cable 1 1 1 3.5c 0    
+insert CB DB-2-CB4 cable 1 1 1 3.5c 0    
+insert CB DB-2-CB5 cable 1 1 1 3.5c 0    
+insert CB DB-2-CB6 cable 1 1 1 3.5c 0    
+insert CB DB-2-CB7 cable 1 1 1 3.5c 0    
+insert CB DB-2-CB8 cable 1 1 1 3.5c 0    
+insert CB DB-2-CB9 cable 1 1 1 3.5c 0    
+insert CB DB-2-CB10 cable 1 1 1 3.5c 0    
+insert CB DB-2-CB11 cable 1 1 1 3.5c 0    
+goto DB-2-CB1          
+insert LOAD DB-2-Dryer1 cable 1 1 2.5 3.5c 10 load 2.2  
+goto DB-2-CB2          
+insert LOAD DB-2-Dryer2 cable 1 1 2.5 3.5c 12 load 2.2  
+goto DB-2-CB3          
+insert LOAD DB-2-Dryer3 cable 1 1 2.5 3.5c 13 load 2.2  
+goto DB-2-CB4          
+insert LOAD DB-2-Dryer4 cable 1 1 2.5 3.5c 14 load 2.2  
+goto DB-2-CB5          
+insert LOAD DB-2-Dryer5 cable 1 1 2.5 3.5c 15 load 2.2  
+goto DB-2-CB6          
+insert LOAD DB-2-Pump1 cable 1 1 2.5 3.5c 10 load 4  
+goto DB-2-CB7          
+insert LOAD DB-2-Pump2 cable 1 1 2.5 3.5c 10 load 4  
+goto DB-2-CB8          
+insert LOAD DB-2-Pump3 cable 1 1 2.5 3.5c 10 load 4  
+goto DB-2-CB9          
+insert LOAD DB-2-Pump4 cable 1 1 2.5 3.5c 10 load 4  
+goto DB-2-CB10          
+insert LOAD DB-2-CT-Pump1 cable 1 1 2.5 3.5c 40 load 4  
+goto DB-2-CB11          
+insert LOAD DB-2-CT-Pump2 cable 1 1 2.5 3.5c 40 load 4  
+goto AHU+CT-Main-CB          
+insert CB AHU+CT-CB1 cable 1 1 1 3.5c 0    
+insert CB AHU+CT-CB2 cable 1 1 1 3.5c 0    
+insert CB AHU+CT-CB3 cable 1 1 1 3.5c 0    
+insert CB AHU+CT-CB4 cable 1 1 1 3.5c 0    
+insert CB AHU+CT-CB5 cable 1 1 1 3.5c 0    
+insert CB AHU+CT-CB6 cable 1 1 1 3.5c 0    
+insert CB AHU+CT-CB7 cable 1 1 1 3.5c 0    
+insert CB AHU+CT-CB8 cable 1 1 1 3.5c 0    
+insert CB AHU+CT-CB9 cable 1 1 1 3.5c 0    
+insert CB AHU+CT-CB10 cable 1 1 1 3.5c 0    
+insert CB AHU+CT-CB11 cable 1 1 1 3.5c 0    
+goto AHU+CT-CB1          
+insert LOAD AHU+CT-Cooling-Fan1 cable 1 1 16 3.5c 50 load 5.5  
+goto AHU+CT-CB2          
+insert LOAD AHU+CT-Cooling-Fan2 cable 1 1 16 3.5c 50 load 5.5  
+goto AHU+CT-CB3          
+insert LOAD AHU+CT-Cooling-Fan3 cable 1 1 16 3.5c 50 load 5.5  
+goto AHU+CT-CB4          
+insert LOAD AHU+CT-AHU1 cable 1 1 16 3.5c 50 load 18.5  
+goto AHU+CT-CB5          
+insert LOAD AHU+CT-AHU-Gonka-Exh cable 1 1 16 3.5c 50 load 15  
+goto AHU+CT-CB6          
+insert LOAD AHU+CT-AHU2.1 cable 1 1 16 3.5c 50 load 15  
+goto AHU+CT-CB7          
+insert LOAD AHU+CT-AHU2.2 cable 1 1 16 3.5c 50 load 15  
+goto AHU+CT-CB8          
+insert LOAD AHU+CT-AHU-Gonka2 cable 1 1 16 3.5c 50 load 30  
+goto AHU+CT-CB9          
+insert LOAD AHU+CT-Pump4 cable 1 1 2.5 3.5c 10 load 4  
+goto AHU+CT-CB10          
+insert LOAD AHU+CT-CT-Pump1 cable 1 1 2.5 3.5c 40 load 4  
+goto AHU+CT-CB11          
+insert LOAD AHU+CT-CT-Pump2 cable 1 1 2.5 3.5c 40 load 4  
+goto LT-17-Q1          
+insert CB PC50-Fryer-Main-CB cable 1 3 120 4c 120    
+goto PC50-Fryer-Main-CB          
+insert CB PC50-Fryer-CB1 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB2 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB3 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB4 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB5 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB6 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB7 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB8 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB9 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB10 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB11 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB12 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB13 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB14 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB15 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB16 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB17 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB18 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB19 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB20 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB21 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB22 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB23 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB24 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB25 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-CB26 cable 1 1 1 3.5c 0    
+goto PC50-Fryer-CB1          
+insert LOAD PC50-Fryer-Hoist cable 1 1 16 3.5c 25 load 4  
+goto PC50-Fryer-CB2          
+insert LOAD PC50-Fryer-Paddle cable 1 1 2.5 3.5c 23 load 0.55  
+goto PC50-Fryer-CB3          
+insert LOAD PC50-Fryer-Submerger cable 1 1 2.5 3.5c 23 load 0.55  
+goto PC50-Fryer-CB4          
+insert LOAD PC50-Oil-Circulation cable 1 3 120 3.5c 18 load 160  
+goto PC50-Fryer-CB5          
+insert LOAD PC50-Fine-Conveyer cable 1 1 2.5 3.5c 14 load 0.37  
+goto PC50-Fryer-CB6          
+insert LOAD PC50-Fine-Conveyer-Blower cable 1 1 2.5 3.5c 13 load 1.3  
+goto PC50-Fryer-CB7          
+insert LOAD PC50-Zone-1-Outlet-Pump cable 1 1 2.5 3.5c 15 load 7.5  
+goto PC50-Fryer-CB8          
+insert LOAD PC50-Zone-2-Outlet-Pump cable 1 1 2.5 3.5c 15 load 7.5  
+goto PC50-Fryer-CB9          
+insert LOAD PC50-Rapid-Oil-Fill cable 1 1 2.5 3.5c 20 load 7.5  
+goto PC50-Fryer-CB10          
+insert LOAD PC50-Rapid-Oil-Cool-Down1 cable 1 1 2.5 3.5c 22 load 1.1  
+goto PC50-Fryer-CB11          
+insert LOAD PC50-Oil-Fill-Management cable 1 1 2.5 3.5c 25 load 1.1  
+goto PC50-Fryer-CB12          
+insert LOAD PC50-Rapid-Oil-Cool-Down2 cable 1 1 2.5 3.5c 26 load 7.5  
+goto PC50-Fryer-CB13          
+insert LOAD PC50-Take-Out-Belt cable 1 1 2.5 3.5c 15 load 0.55  
+goto PC50-Fryer-CB14          
+insert LOAD PC50-Moisture-Monitor cable 1 1 2.5 3.5c 10 load 0.55  
+goto PC50-Fryer-CB15          
+insert LOAD PC50-Optical-Sorter1 cable 1 1 2.5 3.5c 11 load 1.1  
+goto PC50-Fryer-CB16          
+insert LOAD PC50-Optical-Sorter2 cable 1 1 2.5 3.5c 11 load 1.1  
+goto PC50-Fryer-CB17          
+insert LOAD PC50-Optical-Sorter-Recycle cable 1 1 2.5 3.5c 45 load 0.75  
+goto PC50-Fryer-CB18          
+insert LOAD PC50-Optical-Sorter-Waste cable 1 1 2.5 3.5c 47 load 0.75  
+goto PC50-Fryer-CB19          
+insert LOAD PC50-Infeed-Elevator-Fryer cable 1 1 2.5 3.5c 50 load 0.75  
+goto PC50-Fryer-CB20          
+insert LOAD PC50-Reverse-Jack-Motor1 cable 1 1 2.5 3.5c 45 load 0.25  
+goto PC50-Fryer-CB21          
+insert LOAD PC50-Reverse-Jack-Motor2 cable 1 1 2.5 3.5c 35 load 0.25  
+goto PC50-Fryer-CB22          
+insert LOAD PC50-Fryer-Trace-Heater1 cable 1 1 16 3.5c 25 load 3.74  
+goto PC50-Fryer-CB23          
+insert LOAD PC50-Fryer-Trace-Heater2 cable 1 1 16 3.5c 40 load 3.74  
+goto PC50-Fryer-CB24          
+insert LOAD PC50-Oil-Storage-Tank-Heater cable 1 1 16 3.5c 45 load 3.74  
+goto PC50-Fryer-CB25          
+insert LOAD PC50-WMFE-Panel cable 1 1 10 3.5c 5 load 0  
+goto PC50-Fryer-CB26          
+insert BUS PC50-Fryer-LDB cable 1 1 10 4c 15    
+goto PC50-Fryer-LDB          
+insert CB PC50-Fryer-LDB-CB1 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-LDB-CB2 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-LDB-CB3 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-LDB-CB4 cable 1 1 1 3.5c 0    
+insert CB PC50-Fryer-LDB-CB5 cable 1 1 1 3.5c 0    
+goto PC50-Fryer-LDB-CB1          
+insert LOAD High-B-Light1 cable 1 1 4 3.5c 30 load 15  
+goto PC50-Fryer-LDB-CB2          
+insert LOAD High-B-Light2 cable 1 1 4 3.5c 30 load 15  
+goto PC50-Fryer-LDB-CB3          
+insert LOAD High-B-Light3 cable 1 1 4 3.5c 30 load 15  
+goto PC50-Fryer-LDB-CB4          
+insert LOAD High-B-Light4 cable 1 1 4 3.5c 30 load 15  
+goto PC50-Fryer-LDB-CB5          
+insert LOAD High-B-Light5 cable 1 1 4 3.5c 30 load 15  
+goto LT-19-Q4          
+insert CB PC50-Seasoning-CB cable 1 1 70 3.5c 140    
+goto PC50-Seasoning-CB          
+insert CB PC50-Seasoning-CB1 cable 1 1 1 3.5c 0    
+insert CB PC50-Seasoning-CB2 cable 1 1 1 3.5c 0    
+insert CB PC50-Seasoning-CB3 cable 1 1 1 3.5c 0    
+insert CB PC50-Seasoning-CB4 cable 1 1 1 3.5c 0    
+goto PC50-Seasoning-CB1          
+insert LOAD DB-29-Q1-Seas-L1 cable 1 1 25 3.5c 35 load 2.2  
+goto PC50-Seasoning-CB2          
+insert LOAD DB-29-Q2-Seas-L2 cable 1 1 25 3.5c 40 load 2.2  
+goto PC50-Seasoning-CB3          
+insert LOAD DB-29-Q3-Seas-L3 cable 1 1 25 3.5c 45 load 2.2  
+goto PC50-Seasoning-CB4          
+insert LOAD DB-29-Q4-PC50-Optyx-Chiller cable 1 1 25 3.5c 50 load 10  
+goto LT-21-Q4          
+insert CB PC50-Dipwash-CB cable 1 1 120 3.5c 110    
+goto PC50-Dipwash-CB          
+insert CB PC50-Dipwash-CB1 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB2 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB3 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB4 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB5 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB6 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB7 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB8 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB9 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB10 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB11 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB12 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB13 cable 1 1 1 3.5c 0    
+insert CB PC50-Dipwash-CB14 cable 1 1 1 3.5c 0    
+goto PC50-Dipwash-CB1          
+insert LOAD PC50-Starch-Recovery-Pump cable 1 1 16 3.5c 30 load 5.5  
+goto PC50-Dipwash-CB2          
+insert LOAD PC50-Dipwash-Conveyer1 cable 1 1 2.5 3.5c 25 load 1.5  
+goto PC50-Dipwash-CB3          
+insert LOAD PC50-Dipwash-Conveyer2 cable 1 1 2.5 3.5c 26 load 1.5  
+goto PC50-Dipwash-CB4          
+insert LOAD PC50-Catch-Box-Pump cable 1 1 2.5 3.5c 30 load 1.3  
+goto PC50-Dipwash-CB5          
+insert LOAD PC50-Catch-Box-Belt cable 1 1 2.5 3.5c 35 load 0.25  
+goto PC50-Dipwash-CB6          
+insert LOAD PC50-Recirculation-Pump cable 1 1 50 3.5c 32 load 15  
+goto PC50-Dipwash-CB7          
+insert LOAD PC50-Air-Knife-Blower-Fan cable 1 1 70 3.5c 22 load 18.5  
+goto PC50-Dipwash-CB8          
+insert LOAD PC50-Air-Sweep-Suction-Fan cable 1 1 95 3.5c 20 load 55  
+goto PC50-Dipwash-CB9          
+insert LOAD PC50-Hydrocyclone-Pump cable 1 1 50 3.5c 22 load 22  
+goto PC50-Dipwash-CB10          
+insert LOAD PC50-Slicer-Water-Feed cable 1 1 2.5 3.5c 20 load 1.5  
+goto PC50-Dipwash-CB11          
+insert LOAD PC50-Air-Curtain-KHX cable 1 1 2.5 3.5c 32 load 0.5  
+goto PC50-Dipwash-CB12          
+insert LOAD PC50-Air-Curtain-Waste cable 1 1 2.5 3.5c 31 load 0.5  
+goto PC50-Dipwash-CB13          
+insert LOAD PC50-Tubelight1 cable 1 1 2.5 3.5c 30 load 0.2  
+goto PC50-Dipwash-CB14          
+insert LOAD PC50-Tubelight2 cable 1 1 2.5 3.5c 30 load 0.2  
+goto LT-20-Q1          
+insert CB PC-50-Prep-Main-CB cable 1 2 120 4c 110    
+goto PC-50-Prep-Main-CB          
+insert CB PC-50-Prep-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB4 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB5 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB6 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB7 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB8 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB9 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB10 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB11 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB12 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB13 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB14 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB15 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB16 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB17 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB18 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB19 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB20 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB21 cable 1 1 1 3.5c 0    
+insert CB PC-50-Prep-CB22 cable 1 1 1 3.5c 0    
+goto PC-50-Prep-CB1          
+insert LOAD PC-50-Prep-Slicer-Feed-Elevator cable 1 1 2.5 3.5c 25 load 3  
+goto PC-50-Prep-CB2          
+insert LOAD PC-50-Prep-Key-Laner-Vibrator cable 1 1 2.5 3.5c 23 load 1.1  
+goto PC-50-Prep-CB3          
+insert LOAD PC-50-Prep-Slicer1 cable 1 1 2.5 3.5c 24 load 1.5  
+goto PC-50-Prep-CB4          
+insert LOAD PC-50-Prep-Slicer2 cable 1 1 2.5 3.5c 22 load 1.5  
+goto PC-50-Prep-CB5          
+insert LOAD PC-50-Prep-Slicer3 cable 1 1 2.5 3.5c 26 load 1.5  
+goto PC-50-Prep-CB6          
+insert LOAD PC-50-Prep-Slicer4 cable 1 1 2.5 3.5c 27 load 1.5  
+goto PC-50-Prep-CB7          
+insert LOAD PC-50-Prep-Slicer5 cable 1 1 2.5 3.5c 20 load 1.5  
+goto PC-50-Prep-CB8          
+insert LOAD PC-50-Prep-Belt-Takeout-Conveyer cable 1 1 2.5 3.5c 20 load 1.5  
+goto PC-50-Prep-CB9          
+insert LOAD PC-50-Prep-Belt-Fines-Conveyer1 cable 1 1 2.5 3.5c 20 load 1.3  
+goto PC-50-Prep-CB10          
+insert LOAD PC-50-Prep-Belt-Fines-Conveyer2 cable 1 1 2.5 3.5c 19 load 0.25  
+goto PC-50-Prep-CB11          
+insert LOAD PC-50-Prep-Belt cable 1 1 6 3.5c 20 load 5.5  
+goto PC-50-Prep-CB12          
+insert LOAD PC-50-Prep-Blancher-Drum cable 1 1 2.5 3.5c 35 load 1.5  
+goto PC-50-Prep-CB13          
+insert LOAD PC-50-Prep-Blancher-Takeout-Conveyer cable 1 1 2.5 3.5c 30 load 1.5  
+goto PC-50-Prep-CB14          
+insert LOAD PC-50-Prep-Blancher-Fines-Conveyer-Blower cable 1 1 2.5 3.5c 22 load 1.3  
+goto PC-50-Prep-CB15          
+insert LOAD PC-50-Prep-Blancher-Fines-Conveyer cable 1 1 2.5 3.5c 22 load 0.25  
+goto PC-50-Prep-CB16          
+insert LOAD PC-50-Prep-Blancher-Pump cable 1 1 6 3.5c 25 load 15  
+goto PC-50-Prep-CB17          
+insert LOAD PC-50-Prep-Speed-Washer-Takeout-Conveyer cable 1 1 2.5 3.5c 25 load 1.5  
+goto PC-50-Prep-CB18          
+insert LOAD PC-50-Prep-Slicer-Piller-F/W cable 1 1 2.5 3.5c 16 load 1.3  
+goto PC-50-Prep-CB19          
+insert LOAD PC-50-Prep-Speed-Washer-Fines cable 1 1 2.5 3.5c 18 load 0.25  
+goto PC-50-Prep-CB20          
+insert LOAD PC-50-Prep-Speed-Washer-Pump cable 1 1 2.5 3.5c 15 load 15  
+goto PC-50-Prep-CB21          
+insert LOAD PC-50-Prep-Turbo-Air-Knife-Fan cable 1 1 6 3.5c 40 load 18.5  
+goto PC-50-Prep-CB22          
+insert LOAD PC-50-Prep-Turbo-Air-Sweep cable 1 1 4 3.5c 40 load 30  
+goto LT-20-Q2          
+insert CB PC-50-Backend-Main-CB cable 1 2 120 4c 95    
+goto PC-50-Backend-Main-CB          
+insert CB PC-50-Backend-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB4 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB5 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB6 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB7 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB8 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB9 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB10 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB11 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB12 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB13 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB14 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB15 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB16 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB17 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB18 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB19 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB20 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB21 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB22 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB23 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB24 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB25 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB26 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB27 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB28 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB29 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB30 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB31 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB32 cable 1 1 1 3.5c 0    
+insert CB PC-50-Backend-CB33 cable 1 1 1 3.5c 0    
+goto PC-50-Backend-CB1          
+insert LOAD PC-50-Backend-Intake-Conveyor-Belt cable 1 1 2.5 3.5c 45 load 0.75  
+goto PC-50-Backend-CB2          
+insert LOAD PC-50-Backend-Inspection-Conveyor cable 1 1 2.5 3.5c 45 load 0.75  
+goto PC-50-Backend-CB3          
+insert LOAD PC-50-Backend-Hopper-Feed-Elevator cable 1 1 2.5 3.5c 45 load 1.1  
+goto PC-50-Backend-CB4          
+insert LOAD PC-50-Backend-Bulk-Hopper-Bin-Disc cable 1 1 2.5 3.5c 45 load 0.25  
+goto PC-50-Backend-CB5          
+insert LOAD PC-50-Backend-Washer-Feed-Elevator cable 1 1 2.5 3.5c 46 load 2.5  
+goto PC-50-Backend-CB6          
+insert LOAD PC-50-Backend-Washer-Drum-Drive-1 cable 1 1 2.5 3.5c 35 load 2.5  
+goto PC-50-Backend-CB7          
+insert LOAD PC-50-Backend-Washer-Drum-Drive-2 cable 1 1 2.5 3.5c 45 load 2.5  
+goto PC-50-Backend-CB8          
+insert LOAD PC-50-Backend-Washer-Clean-Brush-Drive cable 1 1 2.5 3.5c 35 load 2.5  
+goto PC-50-Backend-CB9          
+insert LOAD PC-50-Backend-Washer-Debris-Wheel-Drive cable 1 1 2.5 3.5c 30 load 0.37  
+goto PC-50-Backend-CB10          
+insert LOAD PC-50-Backend-Washer-Low-Pressure-Pump cable 1 1 10 3.5c 32 load 5.5  
+goto PC-50-Backend-CB11          
+insert LOAD PC-50-Backend-Washer-High-Pressure-Pump cable 1 1 2.5 3.5c 25 load 1.5  
+goto PC-50-Backend-CB12          
+insert LOAD PC-50-Backend-Destoner-Paddle-Drive cable 1 1 2.5 3.5c 24 load 1.5  
+goto PC-50-Backend-CB13          
+insert LOAD PC-50-Backend-Destoner-Stone-Belt cable 1 1 2.5 3.5c 25 load 0.75  
+goto PC-50-Backend-CB14          
+insert LOAD PC-50-Backend-Destoner-Circulating-Pump cable 1 1 6 3.5c 15 load 5.5  
+goto PC-50-Backend-CB15          
+insert LOAD PC-50-Backend-Dewooder-Elevator-Drive cable 1 1 2.5 3.5c 20 load 1.1  
+goto PC-50-Backend-CB16          
+insert LOAD PC-50-Backend-Dewooder-Elevator-Debris cable 1 1 2.5 3.5c 20 load 0.25  
+goto PC-50-Backend-CB17          
+insert LOAD PC-50-Backend-Reception-Hopper-Belt cable 1 1 2.5 3.5c 20 load 0.37  
+goto PC-50-Backend-CB18          
+insert LOAD PC-50-Backend-Peeler-Feed-Vibration cable 1 1 6 3.5c 20 load 1.5  
+goto PC-50-Backend-CB19          
+insert LOAD PC-50-Backend-Peeler-1-Drive cable 1 1 2.5 3.5c 10 load 4  
+goto PC-50-Backend-CB20          
+insert LOAD PC-50-Backend-Peeler-2-Drive cable 1 1 2.5 3.5c 7 load 4  
+goto PC-50-Backend-CB21          
+insert LOAD PC-50-Backend-Peeler-3-Drive cable 1 1 2.5 3.5c 13 load 4  
+goto PC-50-Backend-CB22          
+insert LOAD PC-50-Backend-Peeler-4-Drive cable 1 1 2.5 3.5c 10 load 4  
+goto PC-50-Backend-CB23          
+insert LOAD PC-50-Backend-Peeler-5-Drive cable 1 1 2.5 3.5c 15 load 4  
+goto PC-50-Backend-CB24          
+insert LOAD PC-50-Backend-Peeler-6-Drive cable 1 1 2.5 3.5c 11 load 4  
+goto PC-50-Backend-CB25          
+insert LOAD PC-50-Backend-Peel-Discharge-Convey-Vibrator cable 1 1 2.5 3.5c 18 load 1.5  
+goto PC-50-Backend-CB26          
+insert LOAD PC-50-Backend-Cross-Vibrator cable 1 1 2.5 3.5c 20 load 1.5  
+goto PC-50-Backend-CB27          
+insert LOAD PC-50-Backend-Graded-Feed-Elevator-Belt cable 1 1 2.5 3.5c 25 load 3  
+goto PC-50-Backend-CB28          
+insert LOAD PC-50-Backend-Size-Half-Grader cable 1 1 2.5 3.5c 30 load 0.75  
+goto PC-50-Backend-CB29          
+insert LOAD PC-50-Backend-Sizer-Conveyor-Drive cable 1 1 2.5 3.5c 30 load 0.75  
+goto PC-50-Backend-CB30          
+insert LOAD PC-50-Backend-Sizer-Cutter-Drive cable 1 1 2.5 3.5c 30 load 0.75  
+goto PC-50-Backend-CB31          
+insert LOAD PC-50-Backend-Discharge-Vibrator-Drive cable 1 1 2.5 3.5c 30 load 1.5  
+goto PC-50-Backend-CB32          
+insert LOAD PC-50-Backend-Roller-Inspection-Conveyor cable 1 1 2.5 3.5c 40 load 0.55  
+goto PC-50-Backend-CB33          
+insert LOAD PC-50-Backend-Waste-Vibrator-Drum cable 1 1 2.5 3.5c 35 load 1.27  
+goto LT-20-Q4          
+insert CB PC-50-KHX-Main-CB cable 1 2 120 4c 140    
+goto PC-50-KHX-Main-CB          
+insert CB PC-50-KHX-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-50-KHX-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-50-KHX-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-50-KHX-CB4 cable 1 1 1 3.5c 0    
+goto PC-50-KHX-CB1          
+insert LOAD PC-50-KHX-Burner-Fan-F31 cable 1 1 35 3.5c 20 load 37  
+goto PC-50-KHX-CB2          
+insert LOAD PC-50-KHX-Pollution-Fan-F21 cable 1 2 25 3.5c 25 load 37  
+goto PC-50-KHX-CB3          
+insert LOAD PC-50-KHX-Cooling-Fan cable 1 1 2.5 3.5c 10 load 0.37  
+goto PC-50-KHX-CB4          
+insert LOAD PC-50-KHX-Panel-AC cable 1 1 1.5 3.5c 5 load 4  
+goto LT-20-Q3          
+insert CB PC-50-Starch-Main-CB cable 1 1 70 3.5c 60    
+goto PC-50-Starch-Main-CB          
+insert CB PC-50-Starch-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-50-Starch-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-50-Starch-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-50-Starch-CB4 cable 1 1 1 3.5c 0    
+goto PC-50-Starch-CB1          
+insert LOAD PC-50-Starch-Starch-Water-Delivery cable 1 1 2.5 3.5c 12 load 3  
+goto PC-50-Starch-CB2          
+insert LOAD PC-50-Starch-Centrifuge-Main-Drive cable 1 1 50 3.5c 10 load 22  
+goto PC-50-Starch-CB3          
+insert LOAD PC-50-Starch-Centrifuge-Hydrolice cable 1 1 50 3.5c 12 load 22  
+goto PC-50-Starch-CB4          
+insert LOAD PC-50-Starch-Recycle-Water-Pump cable 1 1 2.5 3.5c 10 load 7.5  
+goto Transformer-3          
+insert CB Waste-Water-Treatment-Plant-Main-CB cable 1 2 150 4c 50    
+goto Waste-Water-Treatment-Plant-Main-CB          
+insert CB WWTP-CB1 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB2 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB3 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB4 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB5 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB6 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB7 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB8 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB9 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB10 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB11 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB12 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB13 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB14 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB15 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB16 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB17 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB18 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB19 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB20 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB21 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB22 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB23 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB24 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB25 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB26 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB27 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB28 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB29 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB30 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB31 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB32 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB33 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB34 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB35 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB36 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB37 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB38 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB39 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB40 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB41 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB42 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB43 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB44 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB45 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB46 cable 1 1 1 3.5c 0    
+insert CB WWTP-CB47 cable 1 1 1 3.5c 0    
+insert LOAD WWTP-Lighting-Load cable 1 1 1 3.5c 0 load 0.6  
+goto WWTP-CB1          
+insert BUS WWTP-DOL-Motors cable 1 1 1 3.5c 0    
+goto WWTP-CB2          
+insert LOAD WWTP-Alkali-Dosing-Pump cable 1 1 2.5 3.5c 120 load 0.55  
+goto WWTP-CB3          
+insert LOAD WWTP-Acid-Dosing-Pump cable 1 1 2.5 3.5c 120 load 0.55  
+goto WWTP-CB4          
+insert LOAD WWTP-Chemical-Dosing-Pump1 cable 1 1 2.5 3.5c 120 load 0.55  
+goto WWTP-CB5          
+insert LOAD WWTP-Chemical-Dosing-Pump2 cable 1 1 2.5 3.5c 120 load 0.55  
+goto WWTP-CB6          
+insert LOAD WWTP-SHT-Mixer-1 cable 1 1 2.5 3.5c 120 load 2.2  
+goto WWTP-CB7          
+insert LOAD WWTP-SHT-Mixer-2 cable 1 1 2.5 3.5c 120 load 1.5  
+goto WWTP-CB8          
+insert LOAD WWTP-Polymer-Mixer cable 1 1 2.5 3.5c 120 load 0.55  
+goto WWTP-CB9          
+insert LOAD WWTP-PP-Pump-1 cable 1 1 2.5 3.5c 150 load 1.5  
+goto WWTP-CB10          
+insert LOAD WWTP-PP-Pump-2 cable 1 1 2.5 3.5c 150 load 1.5  
+goto WWTP-CB11          
+insert LOAD WWTP-ET-Pump-1 cable 1 1 2.5 3.5c 60 load 1.1  
+goto WWTP-CB12          
+insert LOAD WWTP-ET-Pump-2 cable 1 1 2.5 3.5c 60 load 1.1  
+goto WWTP-CB13          
+insert LOAD WWTP-ET-Mixer-1 cable 1 1 2.5 3.5c 140 load 2.2  
+goto WWTP-CB14          
+insert LOAD WWTP-ET-Mixer-2 cable 1 1 2.5 3.5c 160 load 2.2  
+goto WWTP-CB15          
+insert LOAD WWTP-PST-Sludge-Pump-2 cable 1 1 2.5 3.5c 60 load 2.2  
+goto WWTP-CB16          
+insert LOAD WWTP-Belt-Press-Filter cable 1 1 2.5 3.5c 120 load 1.1  
+goto WWTP-CB17          
+insert LOAD WWTP-ST1-Sludge-Pump cable 1 1 2.5 3.5c 60 load 2.2  
+goto WWTP-CB18          
+insert LOAD WWTP-ST2-Sludge-Pump cable 1 1 2.5 3.5c 60 load 2.2  
+goto WWTP-CB19          
+insert LOAD WWTP-SST-Sludge-Pump cable 1 1 2.5 3.5c 60 load 2.2  
+goto WWTP-CB20          
+insert LOAD WWTP-PST-Scraper cable 1 1 2.5 3.5c 100 load 0.75  
+goto WWTP-CB21          
+insert LOAD WWTP-SST-Scraper cable 1 1 2.5 3.5c 30 load 0.75  
+goto WWTP-CB22          
+insert LOAD WWTP-ST-Scraper-1 cable 1 1 2.5 3.5c 30 load 0.75  
+goto WWTP-CB23          
+insert LOAD WWTP-ST-Scraper-2 cable 1 1 2.5 3.5c 25 load 0.75  
+goto WWTP-CB24          
+insert LOAD WWTP-Mechanical-Screen cable 1 1 2.5 3.5c 80 load 2.2  
+goto WWTP-CB25          
+insert LOAD WWTP-Pre-Selector-1 cable 1 1 2.5 3.5c 100 load 2.2  
+goto WWTP-CB26          
+insert LOAD WWTP-Pre-Selector-2 cable 1 1 2.5 3.5c 100 load 2.2  
+goto WWTP-CB27          
+insert LOAD WWTP-DOL-1/6 cable 1 1 2.5 3.5c 100 load 5  
+goto WWTP-CB28          
+insert LOAD WWTP-DOL-2/6 cable 1 1 2.5 3.5c 100 load 5  
+goto WWTP-CB29          
+insert LOAD WWTP-DOL-3/6 cable 1 1 2.5 3.5c 100 load 5  
+goto WWTP-CB30          
+insert LOAD WWTP-DOL-4/6 cable 1 1 2.5 3.5c 100 load 5  
+goto WWTP-CB31          
+insert LOAD WWTP-DOL-5/6 cable 1 1 2.5 3.5c 100 load 5  
+goto WWTP-CB32          
+insert LOAD WWTP-DOL-6/6 cable 1 1 2.5 3.5c 100 load 5  
+goto WWTP-CB33          
+insert LOAD WWTP-AT-Circulation-Pump-1 cable 1 1 50 3.5c 80 load 15  
+goto WWTP-CB34          
+insert LOAD WWTP-AT-Circulation-Pump-2 cable 1 1 50 3.5c 80 load 15  
+goto WWTP-CB35          
+insert LOAD WWTP-ASD-1/5-Air-Blower cable 1 1 35 3.5c 47 load 30  
+goto WWTP-CB36          
+insert LOAD WWTP-ASD-2/5-Air-Blower cable 1 1 35 3.5c 45 load 30  
+goto WWTP-CB37          
+insert LOAD WWTP-ASD-3/5-Air-Blower cable 1 1 35 3.5c 50 load 30  
+goto WWTP-CB38          
+insert LOAD WWTP-ASD-4/5-Air-Blower cable 1 1 35 3.5c 48 load 30  
+goto WWTP-CB39          
+insert LOAD WWTP-ASD-5/5-Air-Blower cable 1 1 35 3.5c 45 load 30  
+goto WWTP-CB40          
+insert LOAD WWTP-Crane1 cable 1 1 2.5 3.5c 100 load 0.55  
+goto WWTP-CB41          
+insert LOAD WWTP-Crane2 cable 1 1 2.5 3.5c 100 load 2.2  
+goto WWTP-CB42          
+insert LOAD WWTP-Drum-Screen cable 1 1 2.5 3.5c 70 load 0.75  
+goto WWTP-CB43          
+insert LOAD WWTP-Recycle-Pump cable 1 1 4 3.5c 80 load 11  
+goto WWTP-CB44          
+insert LOAD WWTP-Mixer cable 1 1 4 3.5c 80 load 15  
+goto WWTP-CB45          
+insert LOAD WWTP-Conveyer-Screw cable 1 1 2.5 3.5c 60 load 1.1  
+goto WWTP-CB46          
+insert LOAD WWTP-UASB1 cable 1 1 4 3.5c 120 load 1.5  
+goto WWTP-CB47          
+insert LOAD WWTP-UASB2 cable 1 1 4 3.5c 120 load 1.5  
+goto WWTP-DOL-Motors          
+insert CB WWTP-DOL-CB1 cable 1 1 1 3.5c 0    
+insert CB WWTP-DOL-CB2 cable 1 1 1 3.5c 0    
+insert CB WWTP-DOL-CB3 cable 1 1 1 3.5c 0    
+insert CB WWTP-DOL-CB4 cable 1 1 1 3.5c 0    
+insert CB WWTP-DOL-CB5 cable 1 1 1 3.5c 0    
+goto WWTP-DOL-CB1          
+insert LOAD WWTP-DOL-M1 cable 1 1 2.5 3.5c 40 load 0.5  
+goto WWTP-DOL-CB2          
+insert LOAD WWTP-DOL-M2 cable 1 1 2.5 3.5c 40 load 0.5  
+goto WWTP-DOL-CB3          
+insert LOAD WWTP-DOL-M3 cable 1 1 2.5 3.5c 40 load 0.5  
+goto WWTP-DOL-CB4          
+insert LOAD WWTP-DOL-M4 cable 1 1 2.5 3.5c 40 load 0.5  
+goto WWTP-DOL-CB5          
+insert LOAD WWTP-DOL-M5 cable 1 1 2.5 3.5c 40 load 0.5  
+goto LT-29-Q4          
+insert CB PC-32-Fryer-Main-CB cable 1 1 300 4c 220    
+goto PC-32-Fryer-Main-CB          
+insert CB PC-32-Fryer-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB4 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB5 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB6 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB7 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB8 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB9 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB10 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB11 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB12 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB13 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB14 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB15 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB16 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB17 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB18 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB19 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB20 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB21 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB22 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB23 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB24 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB25 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB26 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB27 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB28 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB29 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB30 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB31 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB32 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB33 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB34 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB35 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB36 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB37 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB38 cable 1 1 1 3.5c 0    
+insert CB PC-32-Fryer-CB39 cable 1 1 1 3.5c 0    
+goto PC-32-Fryer-CB1          
+insert LOAD PC-32-Fryer-Recycle-Elevator cable 1 1 2.5 3.5c 40 load 1.5  
+goto PC-32-Fryer-CB2          
+insert LOAD PC-32-Fryer-Recycle-Belt cable 1 1 2.5 3.5c 38 load 1.5  
+goto PC-32-Fryer-CB3          
+insert LOAD PC-32-Fryer-Optical-Sorter-Waste-Elevator cable 1 1 2.5 3.5c 37 load 0.37  
+goto PC-32-Fryer-CB4          
+insert LOAD PC-32-Fryer-Slicer-2 cable 1 1 2.5 3.5c 35 load 1.5  
+goto PC-32-Fryer-CB5          
+insert LOAD PC-32-Fryer-Seasoning-Diverter1 cable 1 1 2.5 3.5c 36 load 0.04  
+goto PC-32-Fryer-CB6          
+insert LOAD PC-32-Fryer-Slicer-Feed-Elevator cable 1 1 2.5 3.5c 36 load 1.5  
+goto PC-32-Fryer-CB7          
+insert LOAD PC-32-Fryer-Slicing-Key-Laning-Conveyer cable 1 1 2.5 3.5c 35 load 1.1  
+goto PC-32-Fryer-CB8          
+insert LOAD PC-32-Fryer-Slicer-1 cable 1 1 2.5 3.5c 40 load 1.5  
+goto PC-32-Fryer-CB9          
+insert LOAD PC-32-Fryer-Slicer-3 cable 1 1 2.5 3.5c 40 load 1.5  
+goto PC-32-Fryer-CB10          
+insert LOAD PC-32-Fryer-Slicer-4 cable 1 1 2.5 3.5c 40 load 1.5  
+goto PC-32-Fryer-CB11          
+insert LOAD PC-32-Fryer-Belt-Takeout-Conveyer cable 1 1 2.5 3.5c 35 load 1.5  
+goto PC-32-Fryer-CB12          
+insert LOAD PC-32-Fryer-Belt-Fines-Blower cable 1 1 2.5 3.5c 40 load 1.5  
+goto PC-32-Fryer-CB13          
+insert LOAD PC-32-Fryer-Belt-Fines-Conveyer cable 1 1 2.5 3.5c 40 load 0.25  
+goto PC-32-Fryer-CB14          
+insert LOAD PC-32-Fryer-Belt-Circulation-Pump cable 1 1 4 3.5c 40 load 5.5  
+goto PC-32-Fryer-CB15          
+insert LOAD PC-32-Fryer-Speedwash-Takeout-Conveyer cable 1 1 2.5 3.5c 25 load 1.5  
+goto PC-32-Fryer-CB16          
+insert LOAD PC-32-Fryer-Speedwash-Fines-Blower cable 1 1 2.5 3.5c 30 load 1.5  
+goto PC-32-Fryer-CB17          
+insert LOAD PC-32-Fryer-Speedwash-Fines-Conveyer cable 1 1 2.5 3.5c 30 load 0.25  
+goto PC-32-Fryer-CB18          
+insert LOAD PC-32-Fryer-Circulation-Pump cable 1 1 6 3.5c 30 load 15  
+goto PC-32-Fryer-CB19          
+insert LOAD PC-32-Fryer-Air-Knife-Blower-Fan cable 1 1 6 3.5c 25 load 18.5  
+goto PC-32-Fryer-CB20          
+insert LOAD PC-32-Fryer-Starch-Pump-Fines-Pump cable 1 1 4 3.5c 22 load 5.5  
+goto PC-32-Fryer-CB21          
+insert LOAD PC-32-Fryer-Fryer-Hood-Lift cable 1 1 2.5 3.5c 24 load 2.2  
+goto PC-32-Fryer-CB22          
+insert LOAD PC-32-Fryer-Fryer-Paddle-Drive cable 1 1 2.5 3.5c 20 load 0.55  
+goto PC-32-Fryer-CB23          
+insert LOAD PC-32-Fryer-Fryer-Submerger-Belt cable 1 1 2.5 3.5c 18 load 0.55  
+goto PC-32-Fryer-CB24          
+insert LOAD PC-32-Fryer-MCB-Fines-Conveyer cable 1 1 2.5 3.5c 12 load 0.37  
+goto PC-32-Fryer-CB25          
+insert LOAD PC-32-Fryer-MCB-Fines-Blower cable 1 1 2.5 3.5c 10 load 1.3  
+goto PC-32-Fryer-CB26          
+insert LOAD PC-32-Fryer-Fryer-Exhaust-Stack-Fan cable 1 1 2.5 3.5c 40 load 3  
+goto PC-32-Fryer-CB27          
+insert LOAD PC-32-Fryer-ROCD-Transfer-Pump cable 1 1 4 3.5c 24 load 5.5  
+goto PC-32-Fryer-CB28          
+insert LOAD PC-32-Fryer-Scavenge-Pump cable 1 1 2.5 3.5c 20 load 0.55  
+goto PC-32-Fryer-CB29          
+insert LOAD PC-32-Fryer-Used-Oil-Make-up-Pump cable 1 1 2.5 3.5c 23 load 0.55  
+goto PC-32-Fryer-CB30          
+insert LOAD PC-32-Fryer-Fryer-Take-out-Conveyer cable 1 1 2.5 3.5c 16 load 0.55  
+goto PC-32-Fryer-CB31          
+insert LOAD PC-32-Fryer-Fryer-Moisture-Conveyer cable 1 1 2.5 3.5c 16 load 0.55  
+goto PC-32-Fryer-CB32          
+insert LOAD PC-32-Fryer-Optical-Sorter-Reject-Conveyer cable 1 1 2.5 3.5c 30 load 0.37  
+goto PC-32-Fryer-CB33          
+insert LOAD PC-32-Fryer-Seasoning-Infeed-Elevator cable 1 1 2.5 3.5c 33 load 0.55  
+goto PC-32-Fryer-CB34          
+insert LOAD PC-32-Fryer-Optical-Sorter-Infeed-Vibrator-1 cable 1 1 2.5 3.5c 28 load 1.1  
+goto PC-32-Fryer-CB35          
+insert LOAD PC-32-Fryer-Optical-Sorter-Infeed-Vibrator-2 cable 1 1 2.5 3.5c 25 load 1.1  
+goto PC-32-Fryer-CB36          
+insert LOAD PC-32-Fryer-Used-Oil-Fastfil-Pump cable 1 1 2.5 3.5c 15 load 5.5  
+goto PC-32-Fryer-CB37          
+insert LOAD PC-32-Fryer-Speedwash-Circulation-Pump cable 1 1 6 3.5c 17 load 15  
+goto PC-32-Fryer-CB38          
+insert LOAD PC-32-Fryer-Seasoning-Diverter2 cable 1 1 2.5 3.5c 20 load 0.04  
+goto PC-32-Fryer-CB39          
+insert LOAD PC-32-Fryer-Panel-Air-Conditioner cable 1 1 2.5 3.5c 3 load 0.1  
+goto PC-32-Fryer-Main-CB          
+insert CB PC32-Seasoning-Loop1-Main-CB cable 1 1 10 3.5c 30    
+insert CB PC32-Seasoning-Loop2-Main-CB cable 1 1 10 3.5c 35    
+goto PC32-Seasoning-Loop1-Main-CB          
+insert CB PC32-Seasoning-Loop1-CB1 cable 1 1 1 3.5c 0    
+insert CB PC32-Seasoning-Loop1-CB2 cable 1 1 1 3.5c 0    
+insert CB PC32-Seasoning-Loop1-CB3 cable 1 1 1 3.5c 0    
+insert CB PC32-Seasoning-Loop1-CB4 cable 1 1 1 3.5c 0    
+insert CB PC32-Seasoning-Loop1-CB5 cable 1 1 1 3.5c 0    
+insert CB PC32-Seasoning-Loop1-CB6 cable 1 1 1 3.5c 0    
+goto PC32-Seasoning-Loop1-CB1          
+insert LOAD PC32-Seasoning-Loop1-Motor-1 cable 1 1 2.5 3.5c 10 load 0.55  
+goto PC32-Seasoning-Loop1-CB2          
+insert LOAD PC32-Seasoning-Loop1-Motor-2 cable 1 1 2.5 3.5c 10 load 0.55  
+goto PC32-Seasoning-Loop1-CB3          
+insert LOAD PC32-Seasoning-Loop1-Motor-3 cable 1 1 2.5 3.5c 10 load 0.55  
+goto PC32-Seasoning-Loop1-CB4          
+insert LOAD PC32-Seasoning-Loop1-Motor-4 cable 1 1 2.5 3.5c 10 load 1.5  
+goto PC32-Seasoning-Loop1-CB5          
+insert LOAD PC32-Seasoning-Loop1-Motor-5 cable 1 1 2.5 3.5c 10 load 0.55  
+goto PC32-Seasoning-Loop1-CB6          
+insert LOAD PC32-Seasoning-Loop1-Control-System cable 1 1 2.5 3.5c 2 load 0.3  
+goto PC32-Seasoning-Loop2-Main-CB          
+insert CB PC32-Seasoning-Loop2-CB1 cable 1 1 1 3.5c 0    
+insert CB PC32-Seasoning-Loop2-CB2 cable 1 1 1 3.5c 0    
+insert CB PC32-Seasoning-Loop2-CB3 cable 1 1 1 3.5c 0    
+insert CB PC32-Seasoning-Loop2-CB4 cable 1 1 1 3.5c 0    
+insert CB PC32-Seasoning-Loop2-CB5 cable 1 1 1 3.5c 0    
+insert CB PC32-Seasoning-Loop2-CB6 cable 1 1 1 3.5c 0    
+goto PC32-Seasoning-Loop2-CB1          
+insert LOAD PC32-Seasoning-Loop2-Motor-1 cable 1 1 2.5 3.5c 10 load 0.55  
+goto PC32-Seasoning-Loop2-CB2          
+insert LOAD PC32-Seasoning-Loop2-Motor-2 cable 1 1 2.5 3.5c 10 load 0.55  
+goto PC32-Seasoning-Loop2-CB3          
+insert LOAD PC32-Seasoning-Loop2-Motor-3 cable 1 1 2.5 3.5c 10 load 0.55  
+goto PC32-Seasoning-Loop2-CB4          
+insert LOAD PC32-Seasoning-Loop2-Motor-4 cable 1 1 2.5 3.5c 10 load 1.5  
+goto PC32-Seasoning-Loop2-CB5          
+insert LOAD PC32-Seasoning-Loop2-Motor-5 cable 1 1 2.5 3.5c 10 load 0.55  
+goto PC32-Seasoning-Loop2-CB6          
+insert LOAD PC32-Seasoning-Loop2-Control-System cable 1 1 2.5 3.5c 2 load 0.3  
+goto LT-33-Q1          
+insert CB PC-32-Starch-Main-CB cable 1 1 70 4c 40    
+goto PC-32-Starch-Main-CB          
+insert CB PC-32-Starch-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-32-Starch-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-32-Starch-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-32-Starch-CB4 cable 1 1 1 3.5c 0    
+goto PC-32-Starch-CB1          
+insert LOAD PC-32-Starch-Starch-Water-Delivery-Pump cable 1 1 2.5 3.5c 10 load 3  
+goto PC-32-Starch-CB2          
+insert LOAD PC-32-Starch-Centrifuge-Main-Drive cable 1 1 10 3.5c 10 load 15  
+goto PC-32-Starch-CB3          
+insert LOAD PC-32-Starch-Centrifuge-Hydraulic-Drive cable 1 1 6 3.5c 8 load 11  
+goto PC-32-Starch-CB4          
+insert LOAD PC-32-Starch-Recycle-Water-Pump cable 1 1 6 3.5c 5 load 7.5  
+goto LT-4-Q3          
+insert CB PC-32-Intake-Main-CB cable 1 1 50 4c 50    
+goto PC-32-Intake-Main-CB          
+insert CB PC-32-Intake-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-32-Intake-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-32-Intake-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-32-Intake-CB4 cable 1 1 1 3.5c 0    
+goto PC-32-Intake-CB1          
+insert LOAD PC-32-Intake-Line-2-Feed-Elevator cable 1 1 2.5 3.5c 20 load 1.5  
+goto PC-32-Intake-CB2          
+insert LOAD PC-32-Intake-Line-2-Infeed-Conveyor cable 1 1 2.5 3.5c 18 load 0.75  
+goto PC-32-Intake-CB3          
+insert LOAD PC-32-Intake-Line-2-Infeed-Elevator cable 1 1 2.5 3.5c 15 load 1.5  
+goto PC-32-Intake-CB4          
+insert LOAD PC-32-Intake-Cold-Store-Divert-Elevator cable 1 1 2.5 3.5c 30 load 1.5  
+goto LT-33-Q3          
+insert CB PC-32-AHU-Main-CB cable 1 1 185 4c 50    
+goto PC-32-AHU-Main-CB          
+insert CB PC-32-AHU-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-32-AHU-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-32-AHU-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-32-AHU-CB4 cable 1 1 1 3.5c 0    
+goto PC-32-AHU-CB1          
+insert LOAD PC-32-AHU-AHU-Mixing-Area cable 1 1 25 3.5c 50 load 15  
+goto PC-32-AHU-CB2          
+insert LOAD PC-32-AHU-AHU#1-Potato-Area cable 1 1 50 3.5c 50 load 15  
+goto PC-32-AHU-CB3          
+insert LOAD PC-32-AHU-AHU#2-Potato-Area cable 1 1 50 3.5c 50 load 15  
+goto PC-32-AHU-CB4          
+insert LOAD PC-32-AHU-AHU-RPM-Root cable 1 1 50 3.5c 50 load 15  
+goto LT-30-Q4          
+insert CB PC-32-Prep-Main-CB cable 1 1 300 4c 200    
+goto PC-32-Prep-Main-CB          
+insert CB PC-32-Prep-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB4 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB5 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB6 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB7 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB8 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB9 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB10 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB11 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB12 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB13 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB14 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB15 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB16 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB17 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB18 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB19 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB20 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB21 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB22 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB23 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB24 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB25 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB26 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB27 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB28 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB29 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB30 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB31 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB32 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB33 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB34 cable 1 1 1 3.5c 0    
+insert CB PC-32-Prep-CB35 cable 1 1 1 3.5c 0    
+goto PC-32-Prep-CB1          
+insert LOAD PC-32-Prep-M-0310 cable 1 1 2.5 3.5c 20 load 0.55  
+goto PC-32-Prep-CB2          
+insert LOAD PC-32-Prep-M-0801 cable 1 1 2.5 3.5c 25 load 1.5  
+goto PC-32-Prep-CB3          
+insert LOAD PC-32-Prep-M-1001 cable 1 1 2.5 3.5c 15 load 7.5  
+goto PC-32-Prep-CB4          
+insert LOAD PC-32-Prep-M-1002 cable 1 1 2.5 3.5c 17 load 0.75  
+goto PC-32-Prep-CB5          
+insert LOAD PC-32-Prep-M-1003 cable 1 1 10 3.5c 18 load 15  
+goto PC-32-Prep-CB6          
+insert LOAD PC-32-Prep-M-1004 cable 1 1 2.5 3.5c 20 load 0.37  
+goto PC-32-Prep-CB7          
+insert LOAD PC-32-Prep-M-1005 cable 1 1 2.5 3.5c 21 load 0.25  
+goto PC-32-Prep-CB8          
+insert LOAD PC-32-Prep-M-1006 cable 1 1 2.5 3.5c 22 load 0.55  
+goto PC-32-Prep-CB9          
+insert LOAD PC-32-Prep-M-1007 cable 1 1 2.5 3.5c 25 load 1.5  
+goto PC-32-Prep-CB10          
+insert LOAD PC-32-Prep-M-2001 cable 1 1 2.5 3.5c 30 load 3  
+goto PC-32-Prep-CB11          
+insert LOAD PC-32-Prep-M-2002 cable 1 1 2.5 3.5c 25 load 1.5  
+goto PC-32-Prep-CB12          
+insert LOAD PC-32-Prep-M-2401 cable 1 1 2.5 3.5c 22 load 4  
+goto PC-32-Prep-CB13          
+insert LOAD PC-32-Prep-M-2501 cable 1 1 2.5 3.5c 28 load 4  
+goto PC-32-Prep-CB14          
+insert LOAD PC-32-Prep-M-2601 cable 1 1 2.5 3.5c 32 load 4  
+goto PC-32-Prep-CB15          
+insert LOAD PC-32-Prep-M-2703 cable 1 1 2.5 3.5c 33 load 1.1  
+goto PC-32-Prep-CB16          
+insert LOAD PC-32-Prep-M-2701 cable 1 1 2.5 3.5c 35 load 2.2  
+goto PC-32-Prep-CB17          
+insert LOAD PC-32-Prep-M-2801 cable 1 1 2.5 3.5c 36 load 0.55  
+goto PC-32-Prep-CB18          
+insert LOAD PC-32-Prep-M-2802 cable 1 1 2.5 3.5c 37 load 0.55  
+goto PC-32-Prep-CB19          
+insert LOAD PC-32-Prep-M-2803 cable 1 1 2.5 3.5c 40 load 1.1  
+goto PC-32-Prep-CB20          
+insert LOAD PC-32-Prep-M-2804 cable 1 1 2.5 3.5c 22 load 0.37  
+goto PC-32-Prep-CB21          
+insert LOAD PC-32-Prep-M-2902 cable 1 1 2.5 3.5c 25 load 0.75  
+goto PC-32-Prep-CB22          
+insert LOAD PC-32-Prep-M-3802 cable 1 1 2.5 3.5c 20 load 0.75  
+goto PC-32-Prep-CB23          
+insert LOAD PC-32-Prep-M-3602 cable 1 1 2.5 3.5c 30 load 0.75  
+goto PC-32-Prep-CB24          
+insert LOAD PC-32-Prep-M-3601 cable 1 1 2.5 3.5c 20 load 0.75  
+goto PC-32-Prep-CB25          
+insert LOAD PC-32-Prep-M-3704 cable 1 1 2.5 3.5c 15 load 0.75  
+goto PC-32-Prep-CB26          
+insert LOAD PC-32-Prep-Blancher-M-101 cable 1 1 2.5 3.5c 45 load 5.5  
+goto PC-32-Prep-CB27          
+insert LOAD PC-32-Prep-Blancher-M-102 cable 1 1 2.5 3.5c 20 load 5.5  
+goto PC-32-Prep-CB28          
+insert LOAD PC-32-Prep-Blancher-M-103 cable 1 1 2.5 3.5c 40 load 5.5  
+goto PC-32-Prep-CB29          
+insert LOAD PC-32-Prep-Blancher-M-104 cable 1 1 2.5 3.5c 42 load 5.5  
+goto PC-32-Prep-CB30          
+insert LOAD PC-32-Prep-Blancher-M-105 cable 1 1 2.5 3.5c 55 load 15  
+goto PC-32-Prep-CB31          
+insert LOAD PC-32-Prep-Blancher-M-106 cable 1 1 2.5 3.5c 60 load 5.5  
+goto PC-32-Prep-CB32          
+insert LOAD PC-32-Prep-Blancher-M-107 cable 1 1 2.5 3.5c 49 load 1.1  
+goto PC-32-Prep-CB33          
+insert LOAD PC-32-Prep-Blancher-M-108 cable 1 1 2.5 3.5c 52 load 2.2  
+goto PC-32-Prep-CB34          
+insert LOAD PC-32-Prep-Blancher-M-109 cable 1 1 2.5 3.5c 46 load 5.5  
+goto PC-32-Prep-CB35          
+insert LOAD PC-32-Prep-Blancher-M-110 cable 1 1 2.5 3.5c 52 load 18  
+goto LT-29-Q3          
+insert CB PC-32-MOP-Main-CB cable 1 1 240 4c 220    
+goto PC-32-MOP-Main-CB          
+insert CB PC-32-MOP-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-32-MOP-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-32-MOP-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-32-MOP-CB4 cable 1 1 1 3.5c 0    
+goto PC-32-MOP-CB1          
+insert LOAD PC-32-MOP-KEM3/KEM4 cable 1 1 1 3.5c 0 load 150  
+goto PC-32-MOP-CB2          
+insert LOAD PC-32-MOP-M-008Z2-Q cable 1 1 25 3.5c 20 load 20  
+goto PC-32-MOP-CB3          
+insert LOAD PC-32-MOP-M-3604-Q cable 1 1 95 3.5c 25 load 75  
+goto PC-32-MOP-CB4          
+insert LOAD PC-32-MOP-M-3406-Q cable 1 1 50 3.5c 15 load 30  
+goto LT-37-Q1          
+insert CB KK-Line-Main-CB cable 1 4 120 4c 160    
+goto KK-Line-Main-CB          
+insert CB KK-Line-CB1 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB2 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB3 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB4 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB5 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB6 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB7 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB8 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB9 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB10 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB11 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB12 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB13 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB14 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB15 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB16 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB17 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB18 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB19 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB20 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB21 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB22 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB23 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB24 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB25 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB26 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB27 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB28 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB29 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB30 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB31 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB32 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB33 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB34 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB35 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB36 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB37 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB38 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB39 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB40 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB41 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB42 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB43 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB44 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB45 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB46 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB47 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB48 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB49 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB50 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB51 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB52 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB53 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB54 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB55 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB56 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB57 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB58 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB59 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB60 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB61 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB62 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB63 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB64 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB65 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB66 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB67 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB68 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB69 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB70 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB71 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB72 cable 1 1 1 3.5c 0    
+insert CB KK-Line-CB73 cable 1 1 1 3.5c 0    
+goto KK-Line-CB1          
+insert LOAD KK-Line-Extruder-1 cable 1 1 1 3.5c 0 load 0  
+goto KK-Line-CB2          
+insert LOAD KK-Line-Extruder-2 cable 1 1 1 3.5c 0 load 0  
+goto KK-Line-CB3          
+insert LOAD KK-Line-Extruder-3 cable 1 1 1 3.5c 0 load 0  
+goto KK-Line-CB4          
+insert LOAD KK-Line-Meal-Mixer cable 1 1 2.5 3.5c 20 load 1.1  
+goto KK-Line-CB5          
+insert LOAD KK-Line-Inclined-Angle-Motor cable 1 1 2.5 3.5c 22 load 0.75  
+goto KK-Line-CB6          
+insert LOAD KK-Line-Rope-Conveyor-1 cable 1 1 2.5 3.5c 25 load 0.37  
+goto KK-Line-CB7          
+insert LOAD KK-Line-Rope-Conveyor-2 cable 1 1 2.5 3.5c 25 load 1.1  
+goto KK-Line-CB8          
+insert LOAD KK-Line-Metal-Detector-U-41/1 cable 1 1 2.5 3.5c 25 load 1.1  
+goto KK-Line-CB9          
+insert LOAD KK-Line-Rotoclone-Dust-Collector cable 1 1 2.5 3.5c 18 load 4  
+goto KK-Line-CB10          
+insert LOAD KK-Line-Rotoclone-Motor cable 1 1 2.5 3.5c 16 load 4  
+goto KK-Line-CB11          
+insert LOAD KK-Line-Rotoclone-Mono-Pump cable 1 1 2.5 3.5c 16 load 0.37  
+goto KK-Line-CB12          
+insert LOAD KK-Line-Main-Conveyor-1 cable 1 1 2.5 3.5c 16 load 1.5  
+goto KK-Line-CB13          
+insert LOAD KK-Line-Tamble-1 cable 1 1 2.5 3.5c 15 load 0.55  
+goto KK-Line-CB14          
+insert LOAD KK-Line-Rotor-Drive-1 cable 1 1 35 3.5c 15 load 37.5  
+goto KK-Line-CB15          
+insert LOAD KK-Line-Conveyor-Drive-1 cable 1 1 2.5 3.5c 15 load 0.55  
+goto KK-Line-CB16          
+insert LOAD KK-Line-Angle-Drive-1 cable 1 1 6 3.5c 15 load 7.5  
+goto KK-Line-CB17          
+insert LOAD KK-Line-Rotor-Drive-2 cable 1 1 35 3.5c 17 load 37.5  
+goto KK-Line-CB18          
+insert LOAD KK-Line-Conveyor-Drive-2 cable 1 1 2.5 3.5c 16 load 0.55  
+goto KK-Line-CB19          
+insert LOAD KK-Line-Angle-Drive-2 cable 1 1 6 3.5c 15 load 7.5  
+goto KK-Line-CB20          
+insert LOAD KK-Line-Rotor-Drive-3 cable 1 1 35 3.5c 15 load 37.5  
+goto KK-Line-CB21          
+insert LOAD KK-Line-Conveyor-Drive-3 cable 1 1 2.5 3.5c 16 load 0.55  
+goto KK-Line-CB22          
+insert LOAD KK-Line-Angle-Drive-3 cable 1 1 6 3.5c 17 load 7.5  
+goto KK-Line-CB23          
+insert LOAD KK-Line-CHTX-Burner-1 cable 1 1 4 3.5c 35 load 3  
+goto KK-Line-CB24          
+insert LOAD KK-Line-ITC-Conveyor-1 cable 1 1 2.5 3.5c 30 load 0.75  
+goto KK-Line-CB25          
+insert LOAD KK-Line-Rev-Gate-Feeder-1 cable 1 1 2.5 3.5c 32 load 0.75  
+goto KK-Line-CB26          
+insert LOAD KK-Line-Revolution-Gate-1 cable 1 1 2.5 3.5c 35 load 0.1  
+goto KK-Line-CB27          
+insert LOAD KK-Line-Slurry-Drum-1-Cross-Feeder-1 cable 1 1 2.5 3.5c 37 load 0.18  
+goto KK-Line-CB28          
+insert LOAD KK-Line-Slurry-Drum-1 cable 1 1 2.5 3.5c 40 load 0.18  
+goto KK-Line-CB29          
+insert LOAD KK-Line-Slurry-Drum-2-Feeder-1 cable 1 1 2.5 3.5c 32 load 0.18  
+goto KK-Line-CB30          
+insert LOAD KK-Line-Main-Conveyor cable 1 1 2.5 3.5c 16 load 1.5  
+goto KK-Line-CB31          
+insert LOAD KK-Line-Tamble cable 1 1 2.5 3.5c 15 load 0.55  
+goto KK-Line-CB32          
+insert LOAD KK-Line-Rotor-Drive-4 cable 1 1 35 3.5c 15 load 37.5  
+goto KK-Line-CB33          
+insert LOAD KK-Line-Conveyor-Drive-4 cable 1 1 2.5 3.5c 15 load 0.55  
+goto KK-Line-CB34          
+insert LOAD KK-Line-Angle-Drive-4 cable 1 1 6 3.5c 15 load 7.5  
+goto KK-Line-CB35          
+insert LOAD KK-Line-Rotor-Drive-5 cable 1 1 35 3.5c 17 load 37.5  
+goto KK-Line-CB36          
+insert LOAD KK-Line-Conveyor-Drive-5 cable 1 1 2.5 3.5c 16 load 0.55  
+goto KK-Line-CB37          
+insert LOAD KK-Line-Angle-Drive-5 cable 1 1 6 3.5c 15 load 7.5  
+goto KK-Line-CB38          
+insert LOAD KK-Line-Rotor-Drive-6 cable 1 1 35 3.5c 15 load 37.5  
+goto KK-Line-CB39          
+insert LOAD KK-Line-Conveyor-Drive-6 cable 1 1 2.5 3.5c 16 load 0.55  
+goto KK-Line-CB40          
+insert LOAD KK-Line-Angle-Drive-6 cable 1 1 6 3.5c 17 load 7.5  
+goto KK-Line-CB41          
+insert LOAD KK-Line-CHTX-Burner-2 cable 1 1 4 3.5c 35 load 3  
+goto KK-Line-CB42          
+insert LOAD KK-Line-ITC-Conveyor-2 cable 1 1 2.5 3.5c 30 load 0.75  
+goto KK-Line-CB43          
+insert LOAD KK-Line-Rev-Gate-Feeder-2 cable 1 1 2.5 3.5c 32 load 0.75  
+goto KK-Line-CB44          
+insert LOAD KK-Line-Revolution-Gate-2 cable 1 1 2.5 3.5c 35 load 0.1  
+goto KK-Line-CB45          
+insert LOAD KK-Line-Slurry-Drum-1-Cross-Feeder-2 cable 1 1 2.5 3.5c 37 load 0.18  
+goto KK-Line-CB46          
+insert LOAD KK-Line-Slurry-Drum-2 cable 1 1 2.5 3.5c 40 load 0.18  
+goto KK-Line-CB47          
+insert LOAD KK-Line-Slurry-Drum-2-Feeder-2 cable 1 1 2.5 3.5c 32 load 0.18  
+goto KK-Line-CB48          
+insert LOAD KK-Line-Slurry-System-2-Tank-1-Mixer cable 1 1 2.5 3.5c 35 load 0.37  
+goto KK-Line-CB49          
+insert LOAD KK-Line-Slurry-System-2-Tank-2-Mixer cable 1 1 2.5 3.5c 36 load 0.37  
+goto KK-Line-CB50          
+insert LOAD KK-Line-Slurry-Circulation-Pump-2 cable 1 1 2.5 3.5c 38 load 0.37  
+goto KK-Line-CB51          
+insert LOAD KK-Line-Hot-Water-Pump-2 cable 1 1 2.5 3.5c 35 load 0.55  
+goto KK-Line-CB52          
+insert LOAD KK-Line-Hot-Water-Tank-Heater-2 cable 1 1 2.5 3.5c 38 load 3  
+goto KK-Line-CB53          
+insert LOAD KK-Line-Slurry-Application-Pump-2 cable 1 1 2.5 3.5c 36 load 0.75  
+goto KK-Line-CB54          
+insert LOAD KK-Line-Residence-Conveyor-CH-2A cable 1 1 2.5 3.5c 40 load 0.55  
+goto KK-Line-CB55          
+insert LOAD KK-Line-Residence-Conveyor-CH-2 cable 1 1 2.5 3.5c 30 load 0.55  
+goto KK-Line-CB56          
+insert LOAD KK-Line-Fryer-Infeed cable 1 1 2.5 3.5c 20 load 0.75  
+goto KK-Line-CB57          
+insert LOAD KK-Line-Vibrator-Feeder-Before-Incline cable 1 1 2.5 3.5c 25 load 4  
+goto KK-Line-CB58          
+insert LOAD KK-Line-Vibrator-Feeder-After-Incline cable 1 1 2.5 3.5c 27 load 4  
+goto KK-Line-CB59          
+insert LOAD KK-Line-Submerger cable 1 1 2.5 3.5c 30 load 0.55  
+goto KK-Line-CB60          
+insert LOAD KK-Line-Discharger cable 1 1 2.5 3.5c 37 load 0.37  
+goto KK-Line-CB61          
+insert LOAD KK-Line-Fryer-Hood cable 1 1 2.5 3.5c 32 load 2.2  
+goto KK-Line-CB62          
+insert LOAD KK-Line-Overnight-Oil-Tank-Heater-1 cable 1 1 2.5 3.5c 33 load 0.37  
+insert LOAD KK-Line-Overnight-Oil-Tank-Heater-2 cable 1 1 2.5 3.5c 33 load 0.37  
+insert LOAD KK-Line-Overnight-Oil-Tank-Heater-3 cable 1 1 2.5 3.5c 33 load 0.37  
+insert LOAD KK-Line-Overnight-Oil-Tank-Heater-4 cable 1 1 2.5 3.5c 33 load 0.37  
+goto KK-Line-CB63          
+insert LOAD KK-Line-Drum-Pre-Filter cable 1 1 2.5 3.5c 36 load 0.37  
+goto KK-Line-CB64          
+insert LOAD KK-Line-Fryer-Catch-Box-Blower cable 1 1 2.5 3.5c 37 load 1.2  
+goto KK-Line-CB65          
+insert LOAD KK-Line-Main-Oil-Pump cable 1 1 2.5 3.5c 39 load 11  
+goto KK-Line-CB66          
+insert LOAD KK-Line-Oil-Transfer-Pump cable 1 1 2.5 3.5c 40 load 2.2  
+goto KK-Line-CB67          
+insert LOAD KK-Line-Slurry-Drum-3 cable 1 1 2.5 3.5c 36 load 0.75  
+goto KK-Line-CB68          
+insert LOAD KK-Line-Slurry-Tank-1-Mixer cable 1 1 2.5 3.5c 36 load 0.37  
+goto KK-Line-CB69          
+insert LOAD KK-Line-Slurry-Tank-2-Mixer cable 1 1 2.5 3.5c 36 load 0.37  
+goto KK-Line-CB70          
+insert LOAD KK-Line-Slurry-Application-Pump cable 1 1 2.5 3.5c 36 load 0.55  
+goto KK-Line-CB71          
+insert LOAD KK-Line-Hot-Water-Pump cable 1 1 2.5 3.5c 36 load 0.55  
+goto KK-Line-CB72          
+insert LOAD KK-Line-Hot-Water-Tank-Heater cable 1 1 2.5 3.5c 36 load 3  
+goto KK-Line-CB73          
+insert LOAD KK-Line-Residence-Conveyor-CH-1 cable 1 1 2.5 3.5c 36 load 0.55  
+goto LT-31-Q3          
+insert CB Ware-House-SMPB-GF-Main-CB cable 1 2 120 4c 270    
+goto Ware-House-SMPB-GF-Main-CB          
+insert CB Ware-House-SMPB-GF-CB1 cable 1 1 1 3.5c 0    
+insert CB Ware-House-SMPB-GF-CB2 cable 1 1 1 3.5c 0    
+insert CB Ware-House-SMPB-GF-CB3 cable 1 1 1 3.5c 0    
+insert CB Ware-House-SMPB-GF-CB4 cable 1 1 1 3.5c 0    
+insert CB Ware-House-SMPB-GF-CB5 cable 1 1 1 3.5c 0    
+insert CB Ware-House-SMPB-GF-CB6 cable 1 1 1 3.5c 0    
+insert CB Ware-House-SMPB-GF-CB7 cable 1 1 1 3.5c 0    
+insert CB Ware-House-SMPB-GF-CB8 cable 1 1 1 3.5c 0    
+insert CB Ware-House-SMPB-GF-CB9 cable 1 1 1 3.5c 0    
+insert CB Ware-House-SMPB-GF-CB10 cable 1 1 1 3.5c 0    
+insert CB Ware-House-SMPB-GF-CB11 cable 1 1 1 3.5c 0    
+insert LOAD Ware-House-Lighting-Load cable 1 1 1 3.5c 0 load 30  
+goto Ware-House-SMPB-GF-CB1          
+insert LOAD Ware-House-SMPB-GF-Load-1 cable 1 1 1 3.5c 20 load 7.5  
+goto Ware-House-SMPB-GF-CB2          
+insert LOAD Ware-House-SMPB-GF-MCC:01-A1 cable 1 1 1 3.5c 15 load 0  
+goto Ware-House-SMPB-GF-CB3          
+insert LOAD Ware-House-SMPB-GF-AHU:1 cable 1 1 1 3.5c 33 load 22  
+goto Ware-House-SMPB-GF-CB4          
+insert LOAD Ware-House-SMPB-GF-AHU:2 cable 1 1 1 3.5c 28 load 22  
+goto Ware-House-SMPB-GF-CB5          
+insert LOAD Ware-House-SMPB-GF-AHU:3 cable 1 1 1 3.5c 40 load 22  
+goto Ware-House-SMPB-GF-CB6          
+insert LOAD Ware-House-SMPB-GF-DBLP:01-TB cable 1 1 1 3.5c 29 load 0  
+goto Ware-House-SMPB-GF-CB7          
+insert LOAD Ware-House-SMPB-GF-Load-2 cable 1 1 1 3.5c 30 load 7.5  
+goto Ware-House-SMPB-GF-CB8          
+insert LOAD Ware-House-SMPB-GF-DBLP:01-A3 cable 1 1 1 3.5c 26 load 0  
+goto Ware-House-SMPB-GF-CB9          
+insert LOAD Ware-House-SMPB-GF-DBLP:09-A1 cable 1 1 1 3.5c 30 load 0  
+goto Ware-House-SMPB-GF-CB10          
+insert LOAD Ware-House-SMPB-GF-DBLP:10-A1 cable 1 1 1 3.5c 30 load 0  
+goto Ware-House-SMPB-GF-CB11          
+insert CB Ware-House-Panel-2-Main-CB cable 1 1 120 4c 150    
+goto Ware-House-Panel-2-Main-CB          
+insert CB Ware-House-Panel-2-CB1 cable 1 1 1 3.5c 0    
+insert CB Ware-House-Panel-2-CB2 cable 1 1 1 3.5c 0    
+insert CB Ware-House-Panel-2-CB3 cable 1 1 1 3.5c 0    
+insert CB Ware-House-Panel-2-CB4 cable 1 1 1 3.5c 0    
+insert CB Ware-House-Panel-2-CB5 cable 1 1 1 3.5c 0    
+insert CB Ware-House-Panel-2-CB6 cable 1 1 1 3.5c 0    
+insert LOAD Ware-House-Panel-2-Lighting-Load cable 1 1 1 3.5c 0 load 30  
+goto Ware-House-Panel-2-CB1          
+insert LOAD Ware-House-Panel-2-Submersible-Pump-1 cable 1 1 25 3.5c 30 load 22  
+goto Ware-House-Panel-2-CB2          
+insert LOAD Ware-House-Panel-2-Submersible-Pump-2 cable 1 1 25 3.5c 32 load 22  
+goto Ware-House-Panel-2-CB3          
+insert LOAD Ware-House-Panel-2-MCC:2-A1 cable 1 1 25 3.5c 15 load 0  
+goto Ware-House-Panel-2-CB4          
+insert LOAD Ware-House-Panel-2-Weight-Bridge cable 1 1 25 3.5c 15 load 0  
+goto Ware-House-Panel-2-CB5          
+insert LOAD Ware-House-Panel-2-DB-L-XT cable 1 1 25 3.5c 15 load 0  
+goto Ware-House-Panel-2-CB6          
+insert BUS Ware-House-Panel-2-DBLP-Bus-Bar cable 1 1 35 3.5c 20    
+goto Ware-House-Panel-2-DBLP-Bus-Bar          
+insert CB Ware-House-Panel-2-DBLP-CB1 cable 1 1 1 3.5c 0    
+insert CB Ware-House-Panel-2-DBLP-CB2 cable 1 1 1 3.5c 0    
+insert CB Ware-House-Panel-2-DBLP-CB3 cable 1 1 1 3.5c 0    
+insert CB Ware-House-Panel-2-DBLP-CB4 cable 1 1 1 3.5c 0    
+insert CB Ware-House-Panel-2-DBLP-CB5 cable 1 1 1 3.5c 0    
+insert CB Ware-House-Panel-2-DBLP-CB6 cable 1 1 1 3.5c 0    
+goto Ware-House-Panel-2-DBLP-CB1          
+insert LOAD Ware-House-Panel-2-DBLP:06-BC cable 1 1 35 3.5c 16 load 0  
+goto Ware-House-Panel-2-DBLP-CB2          
+insert LOAD Ware-House-Panel-2-DBLP:04-A3 cable 1 1 10 3.5c 15 load 0  
+goto Ware-House-Panel-2-DBLP-CB3          
+insert LOAD Ware-House-Panel-2-DBLP:05-A3 cable 1 1 25 3.5c 15 load 0  
+goto Ware-House-Panel-2-DBLP-CB4          
+insert LOAD Ware-House-Panel-2-DBLP:07-A1 cable 1 1 25 3.5c 15 load 0  
+goto Ware-House-Panel-2-DBLP-CB5          
+insert LOAD Ware-House-Panel-2-DBLP:08-A1 cable 1 1 25 3.5c 15 load 0  
+goto Ware-House-Panel-2-DBLP-CB6          
+insert LOAD Ware-House-Panel-2-DBLP:11-A2 cable 1 1 25 3.5c 15 load 0  
+goto LT-37-Q5          
+insert CB Schaaf-Oven-&-Seasoning-Main-CB cable 1 2 120 4c 180    
+goto Schaaf-Oven-&-Seasoning-Main-CB          
+insert CB Schaaf-Oven-&-Seasoning-CB1 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Oven-&-Seasoning-CB2 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Oven-&-Seasoning-CB3 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Oven-&-Seasoning-CB4 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Oven-&-Seasoning-CB5 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Oven-&-Seasoning-CB6 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Oven-&-Seasoning-CB7 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Oven-&-Seasoning-CB8 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Oven-&-Seasoning-CB9 cable 1 1 1 3.5c 0    
+goto Schaaf-Oven-&-Seasoning-CB1          
+insert LOAD Schaaf-Oven-&-Seasoning-Steam-Extraction cable 1 1 2.5 3.5c 10 load 1.5  
+goto Schaaf-Oven-&-Seasoning-CB2          
+insert LOAD Schaaf-Oven-&-Seasoning-Dryer-Top-Conveyer cable 1 1 2.5 3.5c 12 load 0.37  
+goto Schaaf-Oven-&-Seasoning-CB3          
+insert LOAD Schaaf-Oven-&-Seasoning-Dryer-Middle-Conveyer cable 1 1 2.5 3.5c 15 load 0.37  
+goto Schaaf-Oven-&-Seasoning-CB4          
+insert LOAD Schaaf-Oven-&-Seasoning-Dryer-Bottom-Conveyer cable 1 1 2.5 3.5c 10 load 0.37  
+goto Schaaf-Oven-&-Seasoning-CB5          
+insert LOAD Schaaf-Oven-&-Seasoning-Dryer-Combustion cable 1 1 2.5 3.5c 20 load 1.1  
+goto Schaaf-Oven-&-Seasoning-CB6          
+insert LOAD Schaaf-Oven-&-Seasoning-Dryer-Circulation cable 1 1 2.5 3.5c 18 load 7.5  
+goto Schaaf-Oven-&-Seasoning-CB7          
+insert LOAD Schaaf-Oven-&-Seasoning-Seasoning-Drum cable 1 1 2.5 3.5c 16 load 0.55  
+goto Schaaf-Oven-&-Seasoning-CB8          
+insert LOAD Schaaf-Oven-&-Seasoning-Retention-Conveyer cable 1 1 2.5 3.5c 15 load 0.12  
+goto Schaaf-Oven-&-Seasoning-CB9          
+insert LOAD Schaaf-Oven-&-Seasoning-Elevator-Drive-Packing cable 1 1 2.5 3.5c 10 load 0.75  
+goto LT-38-Q3          
+insert CB Schaaf-Mixer-&-Extruder-Main-CB cable 1 2 120 4c 180    
+goto Schaaf-Mixer-&-Extruder-Main-CB          
+insert CB Schaaf-Mixer-&-Extruder-CB1 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB2 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB3 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB4 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB5 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB6 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB7 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB8 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB9 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB10 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB11 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB12 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB13 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-CB14 cable 1 1 1 3.5c 0    
+goto Schaaf-Mixer-&-Extruder-CB1          
+insert LOAD Schaaf-Mixer-&-Extruder-Extruder-Motor cable 1 1 120 3.5c 2 load 110  
+goto Schaaf-Mixer-&-Extruder-CB2          
+insert LOAD Schaaf-Mixer-&-Extruder-Cutter cable 1 1 2.5 3.5c 18 load 1.1  
+goto Schaaf-Mixer-&-Extruder-CB3          
+insert LOAD Schaaf-Mixer-&-Extruder-Dosing-1 cable 1 1 2.5 3.5c 21 load 0.75  
+goto Schaaf-Mixer-&-Extruder-CB4          
+insert LOAD Schaaf-Mixer-&-Extruder-Dosing-2 cable 1 1 2.5 3.5c 16 load 0.75  
+goto Schaaf-Mixer-&-Extruder-CB5          
+insert LOAD Schaaf-Mixer-&-Extruder-Injection-1 cable 1 1 2.5 3.5c 12 load 0.55  
+goto Schaaf-Mixer-&-Extruder-CB6          
+insert LOAD Schaaf-Mixer-&-Extruder-Injection-2 cable 1 1 2.5 3.5c 20 load 0.55  
+goto Schaaf-Mixer-&-Extruder-CB7          
+insert LOAD Schaaf-Mixer-&-Extruder-Pipe-Mixer cable 1 1 2.5 3.5c 17 load 3  
+goto Schaaf-Mixer-&-Extruder-CB8          
+insert LOAD Schaaf-Mixer-&-Extruder-Oil-Pump cable 1 1 2.5 3.5c 16 load 0.08  
+goto Schaaf-Mixer-&-Extruder-CB9          
+insert LOAD Schaaf-Mixer-&-Extruder-Extruder-Motor-Fan cable 1 1 2.5 3.5c 14 load 0.55  
+goto Schaaf-Mixer-&-Extruder-CB10          
+insert LOAD Schaaf-Mixer-&-Extruder-Transport cable 1 1 2.5 3.5c 19 load 2.3  
+goto Schaaf-Mixer-&-Extruder-CB11          
+insert LOAD Schaaf-Mixer-&-Extruder-Stirrer cable 1 1 2.5 3.5c 20 load 0.75  
+goto Schaaf-Mixer-&-Extruder-CB12          
+insert LOAD Schaaf-Mixer-&-Extruder-AC cable 1 1 2.5 3.5c 2 load 2.3  
+goto Schaaf-Mixer-&-Extruder-CB13          
+insert LOAD Schaaf-Mixer-&-Extruder-Heating cable 1 1 2.5 3.5c 20 load 2.2  
+goto Schaaf-Mixer-&-Extruder-CB14          
+insert BUS Schaaf-Mixer-&-Extruder-Mixer-Bus-Bar cable 1 1 16 3.5c 25    
+goto Schaaf-Mixer-&-Extruder-Mixer-Bus-Bar          
+insert CB Schaaf-Mixer-&-Extruder-Mixer-CB1 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-Mixer-CB2 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-Mixer-CB3 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-Mixer-CB4 cable 1 1 1 3.5c 0    
+insert CB Schaaf-Mixer-&-Extruder-Mixer-CB5 cable 1 1 1 3.5c 0    
+goto Schaaf-Mixer-&-Extruder-Mixer-CB1          
+insert LOAD Schaaf-Mixer-&-Extruder-Mixer-Motor cable 1 1 2.5 3.5c 30 load 11  
+goto Schaaf-Mixer-&-Extruder-Mixer-CB2          
+insert LOAD Schaaf-Mixer-&-Extruder-Mixer-Refiner-Motor-1 cable 1 1 2.5 3.5c 32 load 5.5  
+goto Schaaf-Mixer-&-Extruder-Mixer-CB3          
+insert LOAD Schaaf-Mixer-&-Extruder-Mixer-Refiner-Motor-2 cable 1 1 2.5 3.5c 25 load 5.5  
+goto Schaaf-Mixer-&-Extruder-Mixer-CB4          
+insert LOAD Schaaf-Mixer-&-Extruder-Mixer-Agigator-Motor cable 1 1 2.5 3.5c 40 load 1.5  
+goto Schaaf-Mixer-&-Extruder-Mixer-CB5          
+insert LOAD Schaaf-Mixer-&-Extruder-Mixer-Conveyer-Drive cable 1 1 2.5 3.5c 37 load 2.2  
+goto LT-19-Q1          
+insert CB Pump-Room-Main-CB cable 1 1 95 4c 50    
+goto Pump-Room-Main-CB          
+insert CB Pump-Room-CB1 cable 1 1 1 3.5c 0    
+insert CB Pump-Room-CB2 cable 1 1 1 3.5c 0    
+insert CB Pump-Room-CB3 cable 1 1 1 3.5c 0    
+goto Pump-Room-CB1          
+insert LOAD Pump-Room-ASD-1-Process-Water-Pump cable 1 1 25 3.5c 10 load 30  
+goto Pump-Room-CB2          
+insert LOAD Pump-Room-DOL-Raw-Water-Pump cable 1 1 6 3.5c 10 load 5.5  
+goto Pump-Room-CB3          
+insert BUS Pump-Room-Panel-Bus-Bar-2-Bus-Bar cable 1 1 70 3.5c 0    
+goto Pump-Room-Panel-Bus-Bar-2-Bus-Bar          
+insert CB Pump-Room-Panel-Bus-Bar-2-CB1 cable 1 1 1 3.5c 0    
+insert CB Pump-Room-Panel-Bus-Bar-2-CB2 cable 1 1 1 3.5c 0    
+insert CB Pump-Room-Panel-Bus-Bar-2-CB3 cable 1 1 1 3.5c 0    
+insert CB Pump-Room-Panel-Bus-Bar-2-CB4 cable 1 1 1 3.5c 0    
+goto Pump-Room-Panel-Bus-Bar-2-CB1          
+insert LOAD Pump-Room-Panel-Bus-Bar-2-Gate-2-DB-Breaker cable 1 1 25 3.5c 0 load 0  
+goto Pump-Room-Panel-Bus-Bar-2-CB2          
+insert LOAD Pump-Room-Panel-Bus-Bar-2-Water-Turbine-Supply cable 1 1 25 3.5c 20 load 22  
+goto Pump-Room-Panel-Bus-Bar-2-CB3          
+insert LOAD Pump-Room-Panel-Bus-Bar-2-VFD cable 1 1 25 3.5c 5 load 45  
+goto Pump-Room-Panel-Bus-Bar-2-CB4          
+insert LOAD Pump-Room-Panel-Bus-Bar-2-Pump-On-Roof cable 1 1 25 3.5c 25 load 22  
+goto LT-4-Q2          
+insert CB Admin-Ground-Floor-DB-Main-CB cable 1 4 120 4c 200    
+goto Admin-Ground-Floor-DB-Main-CB          
+insert CB Admin-Ground-Floor-DB-CB1 cable 1 1 1 3.5c 0    
+insert CB Admin-Ground-Floor-DB-CB2 cable 1 1 1 3.5c 0    
+insert CB Admin-Ground-Floor-DB-CB3 cable 1 1 1 3.5c 0    
+insert CB Admin-Ground-Floor-DB-CB4 cable 1 1 1 3.5c 0    
+goto Admin-Ground-Floor-DB-CB1          
+insert LOAD Admin-Ground-Floor-DB-Canteen-Door-1 cable 1 1 35 3.5c 20 load 10  
+goto Admin-Ground-Floor-DB-CB2          
+insert LOAD Admin-Ground-Floor-DB-Canteen-Door-2 cable 1 1 35 3.5c 20 load 10  
+goto Admin-Ground-Floor-DB-CB3          
+insert LOAD Admin-Ground-Floor-DB-Canteen-Door-3 cable 1 1 35 3.5c 20 load 10  
+goto Admin-Ground-Floor-DB-CB4          
+insert LOAD Admin-Ground-Floor-DB-First-Floor cable 1 1 35 3.5c 20 load 10  
+goto LT-6-Q3          
+insert CB Old-Fire-Fighting-Pump-Main-CB cable 1 1 120 4c 150    
+goto Old-Fire-Fighting-Pump-Main-CB          
+insert LOAD Old-Fire-Fighting-Pump cable 1 2 50 3.5c 20 load 55  
+goto LT-32-Q3          
+insert CB Chiller-2-Main-CB cable 2 1 120 3.5c 25 1 300 3.5c 25
+goto Chiller-2-Main-CB          
+insert LOAD Chiller-2 cable 1 1 10 3.5c 10 load 196  
+goto LT-37-Q3          
+insert CB MLDP-1-Main-CB cable 1 2 120 4c 80    
+insert CB MLDP-2-Main-CB cable 1 1 120 4c 80    
+goto MLDP-1-Main-CB          
+insert CB MLDP-1-CB1 cable 1 1 1 3.5c 0    
+insert CB MLDP-1-CB2 cable 1 1 1 3.5c 0    
+goto MLDP-1-CB1          
+insert LOAD MLDP-1-Dip-Wash-LDB cable 1 1 35 3.5c 20 load 15  
+goto MLDP-1-CB2          
+insert LOAD MLDP-1-Cold-Store-LDB-1 cable 1 1 70 3.5c 80 load 20  
+goto MLDP-2-Main-CB          
+insert CB MLDP-2-CB1 cable 1 1 1 3.5c 0    
+insert CB MLDP-2-CB2 cable 1 1 1 3.5c 0    
+insert CB MLDP-2-CB3 cable 1 1 1 3.5c 0    
+goto MLDP-2-CB1          
+insert LOAD MLDP-2-Workshop-LDB cable 1 1 35 3.5c 10 load 20  
+goto MLDP-2-CB2          
+insert LOAD MLDP-2-Boiler-Room-LDB cable 1 1 35 3.5c 40 load 20  
+goto MLDP-2-CB3          
+insert LOAD MLDP-2-Packaging-LDB-(Bank-2) cable 1 1 70 3.5c 80 load 20  
+goto LT-33-Q4          
+insert CB PC-32-Main-LDB-Main-CB cable 1 1 70 4c 120    
+goto PC-32-Main-LDB-Main-CB          
+insert CB PC-32-Main-LDB-CB1 cable 1 1 1 3.5c 0    
+goto PC-32-Main-LDB-CB1          
+insert LOAD Packaging-LDB-1-(Bank-4) cable 1 1 25 3.5c 200 load 15  
+goto LT-31-Q1          
+insert CB Process/Package-Exh-Fans-and-AHUs-Main-CB cable 1 1 150 4c 200    
+goto Process/Package-Exh-Fans-and-AHUs-Main-CB          
+insert CB Process/Package-Exh-Fans-and-AHUs-CB1 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB2 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB3 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB4 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB5 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB6 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB7 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB8 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB9 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB10 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB11 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB12 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB13 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB14 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB15 cable 1 1 1 3.5c 0    
+insert CB Process/Package-Exh-Fans-and-AHUs-CB16 cable 1 1 1 3.5c 0    
+goto Process/Package-Exh-Fans-and-AHUs-CB1          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Package-AHU-1 cable 1 1 10 3.5c 20 load 15  
+goto Process/Package-Exh-Fans-and-AHUs-CB2          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Package-AHU-2 cable 1 1 10 3.5c 20 load 11  
+goto Process/Package-Exh-Fans-and-AHUs-CB3          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Package-AHU-3 cable 1 1 10 3.5c 20 load 18  
+goto Process/Package-Exh-Fans-and-AHUs-CB4          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Package-AHU-4 cable 1 1 10 3.5c 20 load 18  
+goto Process/Package-Exh-Fans-and-AHUs-CB5          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Package-AHU-5 cable 1 1 10 3.5c 20 load 18  
+goto Process/Package-Exh-Fans-and-AHUs-CB6          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Package-AHU-6 cable 1 1 10 3.5c 20 load 18  
+goto Process/Package-Exh-Fans-and-AHUs-CB7          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Package-AHU-7 cable 1 1 10 3.5c 20 load 18  
+goto Process/Package-Exh-Fans-and-AHUs-CB8          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Package-AHU-8 cable 1 1 10 3.5c 20 load 18  
+goto Process/Package-Exh-Fans-and-AHUs-CB9          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Process-Exh-1 cable 1 1 2.5 3.5c 20 load 1.5  
+goto Process/Package-Exh-Fans-and-AHUs-CB10          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Process-Exh-2 cable 1 1 2.5 3.5c 22.5 load 1.5  
+goto Process/Package-Exh-Fans-and-AHUs-CB11          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Process-Exh-3 cable 1 1 2.5 3.5c 25 load 1.5  
+goto Process/Package-Exh-Fans-and-AHUs-CB12          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Process-Exh-4 cable 1 1 2.5 3.5c 27.5 load 1.5  
+goto Process/Package-Exh-Fans-and-AHUs-CB13          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Process-Exh-5 cable 1 1 2.5 3.5c 30 load 1.5  
+goto Process/Package-Exh-Fans-and-AHUs-CB14          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Process-Exh-6 cable 1 1 2.5 3.5c 32.5 load 1.5  
+goto Process/Package-Exh-Fans-and-AHUs-CB15          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Process-Exh-7 cable 1 1 2.5 3.5c 35 load 1.5  
+goto Process/Package-Exh-Fans-and-AHUs-CB16          
+insert LOAD Process/Package-Exh-Fans-and-AHUs-Process-Exh-8 cable 1 1 2.5 3.5c 37.5 load 1.5  
+goto LT-21-Q3          
+insert CB ASRS-Main-CB cable 1 2 240 4c 105    
+goto ASRS-Main-CB          
+insert CB ASRS-CB1 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB2 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB3 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB4 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB5 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB6 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB7 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB8 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB9 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB10 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB11 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB12 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB13 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB14 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB15 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB16 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB17 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB18 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB19 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB20 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB21 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB22 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB23 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB24 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB25 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB26 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB27 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB28 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB29 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB30 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB31 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB32 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB33 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB34 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB35 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB36 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB37 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB38 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB39 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB40 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB41 cable 1 1 1 3.5c 0    
+insert CB ASRS-CB42 cable 1 1 1 3.5c 0    
+goto ASRS-CB1          
+insert LOAD ASRS-M1 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB2          
+insert LOAD ASRS-M2 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB3          
+insert LOAD ASRS-M3 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB4          
+insert LOAD ASRS-M4 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB5          
+insert LOAD ASRS-M5 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB6          
+insert LOAD ASRS-M6 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB7          
+insert LOAD ASRS-M7 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB8          
+insert LOAD ASRS-M8 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB9          
+insert LOAD ASRS-M9 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB10          
+insert LOAD ASRS-M10 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB11          
+insert LOAD ASRS-M11 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB12          
+insert LOAD ASRS-M12 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB13          
+insert LOAD ASRS-M13 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB14          
+insert LOAD ASRS-M14 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB15          
+insert LOAD ASRS-M15 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB16          
+insert LOAD ASRS-M16 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB17          
+insert LOAD ASRS-M17 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB18          
+insert LOAD ASRS-M18 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB19          
+insert LOAD ASRS-M19 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB20          
+insert LOAD ASRS-M20 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB21          
+insert LOAD ASRS-M21 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB22          
+insert LOAD ASRS-M22 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB23          
+insert LOAD ASRS-M23 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB24          
+insert LOAD ASRS-M24 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB25          
+insert LOAD ASRS-M25 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB26          
+insert LOAD ASRS-M26 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB27          
+insert LOAD ASRS-M27 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB28          
+insert LOAD ASRS-M28 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB29          
+insert LOAD ASRS-M29 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB30          
+insert LOAD ASRS-M30 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB31          
+insert LOAD ASRS-M31 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB32          
+insert LOAD ASRS-M32 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB33          
+insert LOAD ASRS-M33 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB34          
+insert LOAD ASRS-M34 cable 1 1 2.5 3.5c 63 load 0.37  
+goto ASRS-CB35          
+insert LOAD ASRS-M35 cable 1 1 10 3.5c 80 load 6  
+goto ASRS-CB36          
+insert LOAD ASRS-M36 cable 1 1 10 3.5c 65 load 6  
+goto ASRS-CB37          
+insert LOAD ASRS-M37 cable 1 1 10 3.5c 50 load 6  
+goto ASRS-CB38          
+insert LOAD ASRS-Stacker-Crane-1 cable 1 1 1 3.5c 50 load 76  
+goto ASRS-CB39          
+insert LOAD ASRS-Stacker-Crane-2 cable 1 1 1 3.5c 50 load 76  
+goto ASRS-CB40          
+insert LOAD ASRS-Stacker-Crane-3 cable 1 1 1 3.5c 50 load 76  
+goto ASRS-CB41          
+insert LOAD ASRS-Stacker-Crane-4 cable 1 1 1 3.5c 50 load 76  
+goto ASRS-CB42          
+insert LOAD ASRS-Stacker-Crane-5 cable 1 1 1 3.5c 50 load 76  
+goto LT-38-Q1          
+insert CB Chilled-Room-Main-CB cable 1 2 120 4c 20    
+goto Chilled-Room-Main-CB          
+insert CB Chilled-Room-CB1 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB2 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB3 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB4 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB5 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB6 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB7 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB8 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB9 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB10 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB11 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB12 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB13 cable 1 1 1 3.5c 0    
+insert CB Chilled-Room-CB14 cable 1 1 1 3.5c 0    
+goto Chilled-Room-CB1          
+insert LOAD Chilled-Room-Comp.-Cooling-Tower-Pump-3 cable 1 1 35 3.5c 15 load 7.5  
+goto Chilled-Room-CB2          
+insert LOAD Chilled-Room-Comp.-Cooling-Tower-Pump-1 cable 1 1 10 3.5c 18 load 11.2  
+goto Chilled-Room-CB3          
+insert LOAD Chilled-Room-Comp.-Cooling-Tower-Pump-2 cable 1 1 10 3.5c 16 load 11.2  
+goto Chilled-Room-CB4          
+insert LOAD Chilled-Room-Condensate-Pump-For-Chiller-Room cable 1 1 2.5 3.5c 22 load 0.55  
+goto Chilled-Room-CB5          
+insert LOAD Chilled-Room-Chiller-1-DB cable 1 1 10 3.5c 25 load 0  
+goto Chilled-Room-CB6          
+insert LOAD Chilled-Room-Load-1 cable 1 1 70 3.5c 50 load 30  
+goto Chilled-Room-CB7          
+insert LOAD Chilled-Room-AHU-Raw-Material cable 1 1 35 3.5c 25 load 45  
+goto Chilled-Room-CB8          
+insert LOAD Chilled-Room-Supply-Chiller-Room-VFD cable 1 1 25 3.5c 20 load 25  
+goto Chilled-Room-CB9          
+insert LOAD Chilled-Room-Cooling-Tower-Pump-1 cable 1 1 50 3.5c 20 load 22  
+goto Chilled-Room-CB10          
+insert LOAD Chilled-Room-Cooling-Tower-Pump-2 cable 1 1 50 3.5c 20 load 22  
+goto Chilled-Room-CB11          
+insert LOAD Chilled-Room-Cold-Water-Pump-2 cable 1 1 35 3.5c 25 load 11  
+goto Chilled-Room-CB12          
+insert LOAD Chilled-Room-Store-Load cable 1 1 35 3.5c 50 load 10  
+goto Chilled-Room-CB13          
+insert LOAD Chilled-Room-Chilled-Water-Pump-1 cable 1 1 35 3.5c 10 load 45  
+goto Chilled-Room-CB14          
+insert LOAD Chilled-Room-Chilled-Water-Pump-2 cable 1 1 35 3.5c 10 load 45  
+goto LT-4-Q4          
+insert CB Steam-Boiler-Main-CB cable 1 1 70 4c 160    
+goto Steam-Boiler-Main-CB          
+insert CB Steam-Boiler-CB1 cable 1 1 1 3.5c 0    
+insert CB Steam-Boiler-CB2 cable 1 1 1 3.5c 0    
+insert CB Steam-Boiler-CB3 cable 1 1 1 3.5c 0    
+insert CB Steam-Boiler-CB4 cable 1 1 1 3.5c 0    
+insert CB Steam-Boiler-CB5 cable 1 1 1 3.5c 0    
+insert CB Steam-Boiler-CB6 cable 1 1 1 3.5c 0    
+goto Steam-Boiler-CB1          
+insert LOAD Steam-Boiler-Burner cable 1 1 25 3.5c 10 load 13.2  
+goto Steam-Boiler-CB2          
+insert LOAD Steam-Boiler-F-W-P-1 cable 1 1 2.5 3.5c 20 load 4  
+goto Steam-Boiler-CB3          
+insert LOAD Steam-Boiler-F-W-P-2 cable 1 1 2.5 3.5c 20 load 5.5  
+goto Steam-Boiler-CB4          
+insert LOAD Steam-Boiler-Main-HP-Pump-IST-RO-Pump cable 1 1 4 3.5c 5 load 7.5  
+goto Steam-Boiler-CB5          
+insert LOAD Steam-Boiler-CTP-Pump cable 1 1 2.5 3.5c 5 load 1.1  
+goto Steam-Boiler-CB6          
+insert LOAD Steam-Boiler-Product-Delivery-Pump cable 1 1 2.5 3.5c 10 load 1.5  
+goto LT-26-Q4          
+insert CB PC-32-Thermal-Oil-Main-CB cable 1 1 240 4c 30    
+goto PC-32-Thermal-Oil-Main-CB          
+insert CB PC-32-Thermal-Oil-CB1 cable 1 1 1 3.5c 0    
+insert CB PC-32-Thermal-Oil-CB2 cable 1 1 1 3.5c 0    
+insert CB PC-32-Thermal-Oil-CB3 cable 1 1 1 3.5c 0    
+insert CB PC-32-Thermal-Oil-CB4 cable 1 1 1 3.5c 0    
+goto PC-32-Thermal-Oil-CB1          
+insert LOAD PC-32-Thermal-Oil-Oil-Circulation-Pump cable 1 2 2.5 3.5c 6 load 75  
+goto PC-32-Thermal-Oil-CB2          
+insert LOAD PC-32-Thermal-Oil-Burner cable 1 2 2.5 3.5c 10 load 34  
+goto PC-32-Thermal-Oil-CB3          
+insert LOAD PC-32-Thermal-Oil-Filling-Pump cable 1 1 2.5 3.5c 5 load 0.75  
+goto PC-32-Thermal-Oil-CB4          
+insert LOAD PC-32-Thermal-Oil-Load cable 1 1 2.5 3.5c 5 load 3  
+goto LT-18-Q4          
+insert CB VO-Room-Main-CB cable 1 1 70 3.5c 40    
+goto VO-Room-Main-CB          
+insert CB VO-Room-CB1 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB2 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB3 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB4 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB5 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB6 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB7 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB8 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB9 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB10 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB11 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB12 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB13 cable 1 1 1 3.5c 0    
+insert CB VO-Room-CB14 cable 1 1 1 3.5c 0    
+goto VO-Room-CB1          
+insert LOAD VO-Room-PC-50-Fast-Fill cable 1 1 6 3.5c 10 load 7.5  
+goto VO-Room-CB2          
+insert LOAD VO-Room-PC-50-Top-Up cable 1 1 4 3.5c 10 load 1.1  
+goto VO-Room-CB3          
+insert LOAD VO-Room-Spare cable 1 1 2.5 3.5c 10 load 7.5  
+goto VO-Room-CB4          
+insert LOAD VO-Room-KK-VO-Pump cable 1 1 2.5 3.5c 8 load 11  
+goto VO-Room-CB5          
+insert LOAD VO-Room-PC-32-Fast-Fill cable 1 1 2.5 3.5c 15 load 11  
+goto VO-Room-CB6          
+insert LOAD VO-Room-PC-32-Top-Up cable 1 1 2.5 3.5c 15 load 1.5  
+goto VO-Room-CB7          
+insert LOAD VO-Room-Decanting-Pump-1 cable 1 1 10 3.5c 25 load 8.6  
+goto VO-Room-CB8          
+insert LOAD VO-Room-Decanting-Pump-2 cable 1 1 10 3.5c 25 load 6.3  
+goto VO-Room-CB9          
+insert LOAD VO-Room-New-VO-Pump cable 1 1 6 3.5c 20 load 5.5  
+goto VO-Room-CB10          
+insert LOAD VO-Room-Reaping-Machine-Supply cable 1 1 6 3.5c 22 load 11  
+goto VO-Room-CB11          
+insert LOAD VO-Room-PC-32-Heat-Tracing-DB cable 1 1 25 3.5c 10 load 15  
+goto VO-Room-CB12          
+insert LOAD VO-Room-DB-18.1 cable 1 1 25 3.5c 15 load 15  
+goto VO-Room-CB13          
+insert LOAD VO-Room-DB-18.2 cable 1 1 25 3.5c 6 load 15  
+goto VO-Room-CB14          
+insert LOAD VO-Room-DB-18.3 cable 1 1 25 3.5c 5 load 15  
+goto LT-5-Q3          
+insert CB Heat-Tracing-1&2-DB-19-Q-Main-CB cable 1 1 50 3.5c 40    
+goto Heat-Tracing-1&2-DB-19-Q-Main-CB          
+insert CB Heat-Tracing-1&2-DB-19-Q-CB1 cable 1 1 1 3.5c 0    
+insert CB Heat-Tracing-1&2-DB-19-Q-CB2 cable 1 1 1 3.5c 0    
+insert CB Heat-Tracing-1&2-DB-19-Q-CB3 cable 1 1 1 3.5c 0    
+insert CB Heat-Tracing-1&2-DB-19-Q-CB4 cable 1 1 1 3.5c 0    
+insert CB Heat-Tracing-1&2-DB-19-Q-CB5 cable 1 1 1 3.5c 0    
+insert CB Heat-Tracing-1&2-DB-19-Q-CB6 cable 1 1 1 3.5c 0    
+insert CB Heat-Tracing-1&2-DB-19-Q-CB7 cable 1 1 1 3.5c 0    
+goto Heat-Tracing-1&2-DB-19-Q-CB1          
+insert LOAD Heat-Tracing-1&2-DB-19-Q-DB-18.1 cable 1 1 25 3.5c 5 load 0  
+goto Heat-Tracing-1&2-DB-19-Q-CB2          
+insert LOAD Heat-Tracing-1&2-DB-19-Q-Tank-1-JB-1 cable 1 1 10 3.5c 33 load 0  
+goto Heat-Tracing-1&2-DB-19-Q-CB3          
+insert LOAD Heat-Tracing-1&2-DB-19-Q-Tank-2-JB-2 cable 1 1 10 3.5c 35 load 0  
+goto Heat-Tracing-1&2-DB-19-Q-CB4          
+insert LOAD Heat-Tracing-1&2-DB-19-Q-KK-LINE-JB-3 cable 1 1 10 3.5c 40 load 0  
+goto Heat-Tracing-1&2-DB-19-Q-CB5          
+insert LOAD Heat-Tracing-1&2-DB-19-Q-PC-LINE-JB-4 cable 1 1 10 3.5c 38 load 0  
+goto Heat-Tracing-1&2-DB-19-Q-CB6          
+insert LOAD Heat-Tracing-1&2-DB-19-Q-VO-Tank-1-JB-5,6,7 cable 1 1 10 3.5c 20 load 0  
+goto Heat-Tracing-1&2-DB-19-Q-CB7          
+insert LOAD Heat-Tracing-1&2-DB-19-Q-VO-Tank-JB-8,9,10 cable 1 1 10 3.5c 30 load 0  
+goto VO-Room-Main-CB          
+insert CB VO-Tank-3-Main-CB cable 1 1 10 3.5c 15    
+goto VO-Tank-3-Main-CB          
+insert CB VO-Tank-3-CB1 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-3-CB2 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-3-CB3 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-3-CB4 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-3-CB5 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-3-CB6 cable 1 1 1 3.5c 0    
+goto VO-Tank-3-CB1          
+insert LOAD VO-Tank-3-Heater-1 cable 1 1 2.5 3.5c 25 load 7.5  
+goto VO-Tank-3-CB2          
+insert LOAD VO-Tank-3-Heater-2 cable 1 1 2.5 3.5c 27 load 7.5  
+goto VO-Tank-3-CB3          
+insert LOAD VO-Tank-3-Heater-3 cable 1 1 2.5 3.5c 30 load 7.5  
+goto VO-Tank-3-CB4          
+insert LOAD VO-Tank-3-Heater-4 cable 1 1 2.5 3.5c 34 load 7.5  
+goto VO-Tank-3-CB5          
+insert LOAD VO-Tank-3-Thermostate-1 cable 1 1 2.5 3.5c 40 load 3  
+goto VO-Tank-3-CB6          
+insert LOAD VO-Tank-3-DB-18.3 cable 1 1 2.5 3.5c 5 load 10  
+goto LT-9-Q2          
+insert CB VO-Tank-4-Main-CB cable 1 2 95 4c 40    
+goto VO-Tank-4-Main-CB          
+insert CB VO-Tank-4-CB1 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB2 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB3 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB4 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB5 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB6 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB7 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB8 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB9 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB10 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB11 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB12 cable 1 1 1 3.5c 0    
+insert CB VO-Tank-4-CB13 cable 1 1 1 3.5c 0    
+goto VO-Tank-4-CB1          
+insert LOAD VO-Tank-4-Heater-1 cable 1 1 10 3.5c 13 load 7.5  
+goto VO-Tank-4-CB2          
+insert LOAD VO-Tank-4-Heater-2 cable 1 1 10 3.5c 13 load 7.5  
+goto VO-Tank-4-CB3          
+insert LOAD VO-Tank-4-Heater-3 cable 1 1 10 3.5c 14 load 7.5  
+goto VO-Tank-4-CB4          
+insert LOAD VO-Tank-4-Heater-4 cable 1 1 10 3.5c 14 load 7.5  
+goto VO-Tank-4-CB5          
+insert LOAD VO-Tank-4-Heater-5 cable 1 1 10 3.5c 15 load 7.5  
+goto VO-Tank-4-CB6          
+insert LOAD VO-Tank-4-Heater-6 cable 1 1 10 3.5c 15 load 7.5  
+goto VO-Tank-4-CB7          
+insert LOAD VO-Tank-4-Heater-7 cable 1 1 10 3.5c 16 load 7.5  
+goto VO-Tank-4-CB8          
+insert LOAD VO-Tank-4-Heater-8 cable 1 1 10 3.5c 16 load 7.5  
+goto VO-Tank-4-CB9          
+insert LOAD VO-Tank-4-Heater-9 cable 1 1 10 3.5c 17 load 7.5  
+goto VO-Tank-4-CB10          
+insert LOAD VO-Tank-4-Heater-10 cable 1 1 10 3.5c 17 load 7.5  
+goto VO-Tank-4-CB11          
+insert LOAD VO-Tank-4-Fan cable 1 1 10 3.5c 28 load 15  
+goto VO-Tank-4-CB12          
+insert LOAD VO-Tank-4-Circulation-Pump-1 cable 1 1 6 3.5c 12 load 1.5  
+goto VO-Tank-4-CB13          
+insert LOAD VO-Tank-4-Circulation-Pump-2 cable 1 1 6 3.5c 12 load 1.5  
+goto LT-21-Q3          
+insert CB Packaging-Bank-1-Main-CB cable 1 2 120 4c 240    
+goto Packaging-Bank-1-Main-CB          
+insert CB Packaging-Bank-1-CB1 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB2 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB3 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB4 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB5 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB6 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB7 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB8 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB9 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB10 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB11 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB12 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB13 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB14 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB15 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB16 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB17 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-1-CB18 cable 1 1 1 3.5c 0    
+goto Packaging-Bank-1-CB1          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-1 cable 1 1 16 3.5c 10 load 22  
+goto Packaging-Bank-1-CB2          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-2 cable 1 1 16 3.5c 13 load 22  
+goto Packaging-Bank-1-CB3          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-3 cable 1 1 16 3.5c 16 load 22  
+goto Packaging-Bank-1-CB4          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-4 cable 1 1 16 3.5c 19 load 22  
+goto Packaging-Bank-1-CB5          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-5 cable 1 1 16 3.5c 22 load 22  
+goto Packaging-Bank-1-CB6          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-6 cable 1 1 16 3.5c 25 load 22  
+goto Packaging-Bank-1-CB7          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-7 cable 1 1 16 3.5c 28 load 22  
+goto Packaging-Bank-1-CB8          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-8 cable 1 1 16 3.5c 31 load 22  
+goto Packaging-Bank-1-CB9          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-9 cable 1 1 16 3.5c 34 load 22  
+goto Packaging-Bank-1-CB10          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-10 cable 1 1 16 3.5c 37 load 22  
+goto Packaging-Bank-1-CB11          
+insert LOAD Packaging-Bank-1-Local-Distribution-Panel-11 cable 1 1 16 3.5c 40 load 22  
+goto Packaging-Bank-1-CB12          
+insert LOAD Packaging-Bank-1-EMC2-Vibrator-&-Motor cable 1 1 1 3.5c 0 load 22  
+goto Packaging-Bank-1-CB13          
+insert LOAD Packaging-Bank-1-Carton-Takeaway-1 cable 1 1 16 3.5c 40 load 0.75  
+goto Packaging-Bank-1-CB14          
+insert LOAD Packaging-Bank-1-Carton-Takeaway-2 cable 1 1 16 3.5c 40 load 0.75  
+goto Packaging-Bank-1-CB15          
+insert LOAD Packaging-Bank-1-Carton-Takeaway-3 cable 1 1 16 3.5c 40 load 0.37  
+goto Packaging-Bank-1-CB16          
+insert LOAD Packaging-Bank-1-1M7-0001 cable 1 1 16 3.5c 40 load 0.75  
+goto Packaging-Bank-1-CB17          
+insert LOAD Packaging-Bank-1-Local-Diverter-Panel-Line-2 cable 1 1 1 3.5c 0 load 8  
+goto Packaging-Bank-1-CB18          
+insert LOAD Packaging-Bank-1-Storage-Auto-glide-Conveyor cable 1 1 16 3.5c 0 load 3  
+goto LT-21-Q2          
+insert CB Packaging-Bank-2-Main-CB cable 1 2 120 4c 250    
+goto Packaging-Bank-2-Main-CB          
+insert CB Packaging-Bank-2-CB1 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB2 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB3 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB4 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB5 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB6 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB7 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB8 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB9 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB10 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB11 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB12 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB13 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB14 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-2-CB15 cable 1 1 1 3.5c 0    
+goto Packaging-Bank-2-CB1          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-1 cable 1 1 16 3.5c 10 load 22  
+goto Packaging-Bank-2-CB2          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-2 cable 1 1 16 3.5c 12 load 22  
+goto Packaging-Bank-2-CB3          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-3 cable 1 1 16 3.5c 14 load 22  
+goto Packaging-Bank-2-CB4          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-4 cable 1 1 16 3.5c 16 load 22  
+goto Packaging-Bank-2-CB5          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-5 cable 1 1 16 3.5c 18 load 22  
+goto Packaging-Bank-2-CB6          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-6 cable 1 1 16 3.5c 20 load 22  
+goto Packaging-Bank-2-CB7          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-7 cable 1 1 16 3.5c 22 load 22  
+goto Packaging-Bank-2-CB8          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-8 cable 1 1 16 3.5c 25 load 22  
+goto Packaging-Bank-2-CB9          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-9 cable 1 1 16 3.5c 27 load 22  
+goto Packaging-Bank-2-CB10          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-10 cable 1 1 16 3.5c 30 load 22  
+goto Packaging-Bank-2-CB11          
+insert LOAD Packaging-Bank-2-Local-Distribution-Panel-11 cable 1 1 16 3.5c 35 load 22  
+goto Packaging-Bank-2-CB12          
+insert LOAD Packaging-Bank-2-Feed-EMC2-Vibrator-N-Motor cable 1 1 1 3.5c 32 load 0.75  
+goto Packaging-Bank-2-CB13          
+insert LOAD Packaging-Bank-2-Carton-Takeaway-1 cable 1 1 2.5 3.5c 20 load 0.75  
+goto Packaging-Bank-2-CB14          
+insert LOAD Packaging-Bank-2-Carton-Takeaway-2 cable 1 1 2.5 3.5c 20 load 0.75  
+goto Packaging-Bank-2-CB15          
+insert LOAD Packaging-Bank-2-Carton-Takeaway-3 cable 1 1 2.5 3.5c 20 load 0.37  
+goto LT-21-Q3          
+insert CB Packaging-Back-3-Main-CB cable 1 2 120 4c 260    
+goto Packaging-Back-3-Main-CB          
+insert CB Packaging-Back-3-CB1 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB2 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB3 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB4 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB5 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB6 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB7 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB8 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB9 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB10 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB11 cable 1 1 1 3.5c 0    
+insert CB Packaging-Back-3-CB12 cable 1 1 1 3.5c 0    
+goto Packaging-Back-3-CB1          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-1 cable 1 1 10 3.5c 10 load 22  
+goto Packaging-Back-3-CB2          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-2 cable 1 1 10 3.5c 12 load 22  
+goto Packaging-Back-3-CB3          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-3 cable 1 1 10 3.5c 17 load 22  
+goto Packaging-Back-3-CB4          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-4 cable 1 1 10 3.5c 20 load 22  
+goto Packaging-Back-3-CB5          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-5 cable 1 1 10 3.5c 22 load 22  
+goto Packaging-Back-3-CB6          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-6 cable 1 1 16 3.5c 25 load 22  
+goto Packaging-Back-3-CB7          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-7 cable 1 1 16 3.5c 27 load 22  
+goto Packaging-Back-3-CB8          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-8 cable 1 1 16 3.5c 30 load 22  
+goto Packaging-Back-3-CB9          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-9 cable 1 1 16 3.5c 32 load 22  
+goto Packaging-Back-3-CB10          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-10 cable 1 1 16 3.5c 35 load 22  
+goto Packaging-Back-3-CB11          
+insert LOAD Packaging-Back-3-Local-Distribution-Panel-11 cable 1 1 16 3.5c 40 load 22  
+goto Packaging-Back-3-CB12          
+insert LOAD Packaging-Back-3-Divert-Motor(Reversing) cable 1 1 2.5 3.5c 25 load 0.04  
+goto LT-31-Q3          
+insert CB Packaging-Bank-4-Main-CB cable 1 1 300 4c 300    
+goto Packaging-Bank-4-Main-CB          
+insert CB Packaging-Bank-4-CB1 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB2 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB3 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB4 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB5 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB6 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB7 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB8 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB9 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB10 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB11 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB12 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB13 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB14 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB15 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB16 cable 1 1 1 3.5c 0    
+insert CB Packaging-Bank-4-CB17 cable 1 1 1 3.5c 0    
+goto Packaging-Bank-4-CB1          
+insert LOAD Packaging-Bank-4-Local-Distribution-Panel-1 cable 1 1 10 3.5c 12 load 22  
+goto Packaging-Bank-4-CB2          
+insert LOAD Packaging-Bank-4-Local-Distribution-Panel-2 cable 1 1 10 3.5c 17 load 22  
+goto Packaging-Bank-4-CB3          
+insert LOAD Packaging-Bank-4-Local-Distribution-Panel-3 cable 1 1 10 3.5c 20 load 22  
+goto Packaging-Bank-4-CB4          
+insert LOAD Packaging-Bank-4-Local-Distribution-Panel-4 cable 1 1 10 3.5c 22 load 22  
+goto Packaging-Bank-4-CB5          
+insert LOAD Packaging-Bank-4-Local-Distribution-Panel-5 cable 1 1 16 3.5c 25 load 22  
+goto Packaging-Bank-4-CB6          
+insert LOAD Packaging-Bank-4-Local-Distribution-Panel-6 cable 1 1 16 3.5c 27 load 22  
+goto Packaging-Bank-4-CB7          
+insert LOAD Packaging-Bank-4-Local-Distribution-Panel-7 cable 1 1 16 3.5c 30 load 22  
+goto Packaging-Bank-4-CB8          
+insert LOAD Packaging-Bank-4-Local-Distribution-Panel-8 cable 1 1 16 3.5c 32 load 22  
+goto Packaging-Bank-4-CB9          
+insert LOAD Packaging-Bank-4-Local-Distribution-Panel-9 cable 1 1 16 3.5c 35 load 22  
+goto Packaging-Bank-4-CB10          
+insert LOAD Packaging-Bank-4-Local-Distribution-Panel-10 cable 1 1 16 3.5c 40 load 22  
+goto Packaging-Bank-4-CB11          
+insert LOAD Packaging-Bank-4-Divertor-Motor(Reversing) cable 1 1 2.5 3.5c 20 load 0.04  
+goto Packaging-Bank-4-CB12          
+insert LOAD Packaging-Bank-4-Conveyor-1 cable 1 1 2.5 3.5c 10 load 4  
+goto Packaging-Bank-4-CB13          
+insert LOAD Packaging-Bank-4-Conveyor-2 cable 1 1 2.5 3.5c 10 load 4  
+goto Packaging-Bank-4-CB14          
+insert LOAD Packaging-Bank-4-Conveyor-3 cable 1 1 2.5 3.5c 10 load 4  
+goto Packaging-Bank-4-CB15          
+insert LOAD Packaging-Bank-4-Conveyor-4 cable 1 1 2.5 3.5c 10 load 4  
+goto Packaging-Bank-4-CB16          
+insert LOAD Packaging-Bank-4-Conveyor-5 cable 1 1 2.5 3.5c 10 load 4  
+goto Packaging-Bank-4-CB17          
+insert LOAD Packaging-Bank-4-Conveyor-6 cable 1 1 2.5 3.5c 10 load 4  
+goto LT-9-Q1          
+insert CB Cold-Store-1&2-Main-CB cable 1 2 120 4c 70    
+goto Cold-Store-1&2-Main-CB          
+insert CB Cold-Store-1-Main-CB cable 1 1 120 4c 10    
+insert CB Cold-Store-2-Main-CB cable 1 1 120 4c 10    
+goto Cold-Store-1-Main-CB          
+insert CB Cold-Store-1-CB1 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-1-CB2 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-1-CB3 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-1-CB4 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-1-CB5 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-1-CB6 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-1-CB7 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-1-CB8 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-1-CB9 cable 1 1 1 3.5c 0    
+insert LOAD Cold-Store-1-Lighting-Load cable 1 1 1 3.5c 0 load 20  
+goto Cold-Store-1-CB1          
+insert LOAD Cold-Store-1-Fan-1x2 cable 1 1 2.5 3.5c 10 load 3  
+goto Cold-Store-1-CB2          
+insert LOAD Cold-Store-1-Fan-2x2 cable 1 1 2.5 3.5c 10 load 3  
+goto Cold-Store-1-CB3          
+insert LOAD Cold-Store-1-Fan-3 cable 1 1 2.5 3.5c 60 load 1.5  
+goto Cold-Store-1-CB4          
+insert LOAD Cold-Store-1-Fan-4 cable 1 1 2.5 3.5c 60 load 1.5  
+goto Cold-Store-1-CB5          
+insert LOAD Cold-Store-1-Fan-5 cable 1 1 2.5 3.5c 60 load 1.5  
+goto Cold-Store-1-CB6          
+insert LOAD Cold-Store-1-Fan-6 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-1-CB7          
+insert LOAD Cold-Store-1-Fan-7 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-1-CB8          
+insert LOAD Cold-Store-1-Fan-8 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-1-CB9          
+insert LOAD Cold-Store-1-Compressor cable 1 1 16 3.5c 5 load 45  
+goto Cold-Store-2-Main-CB          
+insert CB Cold-Store-2-CB1 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-2-CB2 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-2-CB3 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-2-CB4 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-2-CB5 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-2-CB6 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-2-CB7 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-2-CB8 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-2-CB9 cable 1 1 1 3.5c 0    
+insert LOAD Cold-Store-2-Lighting-Load cable 1 1 1 3.5c 0 load 20  
+goto Cold-Store-2-CB1          
+insert LOAD Cold-Store-2-Fan-1x2 cable 1 1 2.5 3.5c 10 load 3  
+goto Cold-Store-2-CB2          
+insert LOAD Cold-Store-2-Fan-2x2 cable 1 1 2.5 3.5c 10 load 3  
+goto Cold-Store-2-CB3          
+insert LOAD Cold-Store-2-Fan-3 cable 1 1 2.5 3.5c 60 load 1.5  
+goto Cold-Store-2-CB4          
+insert LOAD Cold-Store-2-Fan-4 cable 1 1 2.5 3.5c 60 load 1.5  
+goto Cold-Store-2-CB5          
+insert LOAD Cold-Store-2-Fan-5 cable 1 1 2.5 3.5c 60 load 1.5  
+goto Cold-Store-2-CB6          
+insert LOAD Cold-Store-2-Fan-6 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-2-CB7          
+insert LOAD Cold-Store-2-Fan-7 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-2-CB8          
+insert LOAD Cold-Store-2-Fan-8 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-2-CB9          
+insert LOAD Cold-Store-2-Compressor cable 1 1 16 3.5c 5 load 45  
+goto LT-4-Q1          
+insert CB Cold-Store-3&4-Main-CB cable 1 2 120 4c 200    
+goto Cold-Store-3&4-Main-CB          
+insert CB Cold-Store-3-Main-CB cable 1 1 120 4c 5    
+insert CB Cold-Store-4-Main-CB cable 1 1 120 4c 10    
+goto Cold-Store-3-Main-CB          
+insert CB Cold-Store-3-CB1 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-3-CB2 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-3-CB3 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-3-CB4 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-3-CB5 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-3-CB6 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-3-CB7 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-3-CB8 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-3-CB9 cable 1 1 1 3.5c 0    
+insert LOAD Cold-Store-3-Lighting-Load cable 1 1 1 3.5c 0 load 20  
+goto Cold-Store-3-CB1          
+insert LOAD Cold-Store-3-Fan-1x2 cable 1 1 4 3.5c 5 load 3  
+goto Cold-Store-3-CB2          
+insert LOAD Cold-Store-3-Fan-2x2 cable 1 1 4 3.5c 7 load 3  
+goto Cold-Store-3-CB3          
+insert LOAD Cold-Store-3-Fan-3 cable 1 1 4 3.5c 50 load 1.5  
+goto Cold-Store-3-CB4          
+insert LOAD Cold-Store-3-Fan-4 cable 1 1 4 3.5c 50 load 1.5  
+goto Cold-Store-3-CB5          
+insert LOAD Cold-Store-3-Fan-5 cable 1 1 4 3.5c 50 load 1.5  
+goto Cold-Store-3-CB6          
+insert LOAD Cold-Store-3-Fan-6 cable 1 1 4 3.5c 50 load 1.5  
+goto Cold-Store-3-CB7          
+insert LOAD Cold-Store-3-Fan-7 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-3-CB8          
+insert LOAD Cold-Store-3-Fan-8 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-3-CB9          
+insert LOAD Cold-Store-3-Compressor cable 1 1 16 3.5c 10 load 45  
+goto Cold-Store-4-Main-CB          
+insert CB Cold-Store-4-CB1 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-4-CB2 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-4-CB3 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-4-CB4 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-4-CB5 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-4-CB6 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-4-CB7 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-4-CB8 cable 1 1 1 3.5c 0    
+insert CB Cold-Store-4-CB9 cable 1 1 1 3.5c 0    
+insert LOAD Cold-Store-4-Lighting-Load cable 1 1 1 3.5c 0 load 20  
+goto Cold-Store-4-CB1          
+insert LOAD Cold-Store-4-Fan-1x2 cable 1 1 2.5 3.5c 5 load 3  
+goto Cold-Store-4-CB2          
+insert LOAD Cold-Store-4-Fan-2x2 cable 1 1 2.5 3.5c 7 load 3  
+goto Cold-Store-4-CB3          
+insert LOAD Cold-Store-4-Fan-3 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-4-CB4          
+insert LOAD Cold-Store-4-Fan-4 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-4-CB5          
+insert LOAD Cold-Store-4-Fan-5 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-4-CB6          
+insert LOAD Cold-Store-4-Fan-6 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-4-CB7          
+insert LOAD Cold-Store-4-Fan-7 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-4-CB8          
+insert LOAD Cold-Store-4-Fan-8 cable 1 1 2.5 3.5c 50 load 1.5  
+goto Cold-Store-4-CB9          
+insert LOAD Cold-Store-4-Compressor cable 1 1 16 3.5c 10 load 45  
+break           
+
